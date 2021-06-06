@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8763e7c479711419df71a099585c76, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  atos:
+  - cenas:
+    - name: davi_home_bathroom
+      scene: {fileID: 102900000, guid: 799f6e99d9d4fd445a411b6866d739e5, type: 3}
+      transition:
+      - isLoked: 1
+      talk:
+      - dialogo: {fileID: 11400000, guid: 6d81b0790dd99de47b45234d59b13c8b, type: 2}
+    - name: davi_home_Hall
+      scene: {fileID: 102900000, guid: bceb8f1557702b845a389c4849f9ae6a, type: 3}
+      transition:
+      - isLoked: 1
+      talk:
+      - dialogo: {fileID: 0}
+  - cenas:
+    - name: davi_home_bathroom
+      scene: {fileID: 102900000, guid: 799f6e99d9d4fd445a411b6866d739e5, type: 3}
+      transition:
+      - isLoked: 1
+      talk:
+      - dialogo: {fileID: 0}
+    - name: davi_home_Hall
+      scene: {fileID: 102900000, guid: bceb8f1557702b845a389c4849f9ae6a, type: 3}
+      transition:
+      - isLoked: 1
+      - isLoked: 0
+      talk:
+      - dialogo: {fileID: 11400000, guid: 6d81b0790dd99de47b45234d59b13c8b, type: 2}
+    - name: davi_home_BedRoom
+      scene: {fileID: 102900000, guid: 92425350da8897043873d2ace7fd8afd, type: 3}
+      transition:
+      - isLoked: 1
+      talk:
+      - dialogo: {fileID: 0}
