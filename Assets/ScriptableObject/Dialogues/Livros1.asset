@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Livros1
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: (Eu me lembro desse livro)
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "(A minha m\xE3e costumava ler ele quando eu ia dormir)"
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: ("O pique-nique do Catapimba")
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "(Ele \xE9 escrito todo em rima)"
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "(Mas \xE9 um livro com uma hist\xF3ria bem idiota...)"
+    nextSentence: 5
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "(\xC9, heis a maldi\xE7\xE3o de crescer. Voc\xEA come\xE7a a reconhecer
+      a estupidez das coisas)"
+    nextSentence: -1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []

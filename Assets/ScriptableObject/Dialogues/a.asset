@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: a
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: asdas
+    nextSentence: 1
+    sprite: {fileID: 7465856469000506881, guid: dd8bb02b1d4a0654bbb32c79c2e39088,
+      type: 3}
+    hasAnswer: 0
+    answers:
+    - frase: 
+      nextSentence: 0
+    - frase: 
+      nextSentence: 0
+    - frase: 
+      nextSentence: 0
+    - frase: 
+      nextSentence: 0
+  - frase: asdasdasddddddd
+    nextSentence: 2
+    sprite: {fileID: 7465856469000506881, guid: dd8bb02b1d4a0654bbb32c79c2e39088,
+      type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: naaaa
+      nextSentence: 2
+    - frase: dsadasdas
+      nextSentence: 0
+    - frase: dasd
+      nextSentence: 0
+    - frase: sair
+      nextSentence: -1
+  - frase: "OI meu nome \xE9 aaaaaaa"
+    nextSentence: 0
+    sprite: {fileID: 7465856469000506881, guid: dd8bb02b1d4a0654bbb32c79c2e39088,
+      type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: naaaa
+      nextSentence: 0
+    - frase: dsadasdas
+      nextSentence: 1
+    - frase: dasd
+      nextSentence: 2
+    - frase: sair
+      nextSentence: -1
