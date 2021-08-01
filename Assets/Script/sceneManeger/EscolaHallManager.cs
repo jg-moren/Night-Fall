@@ -2,32 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EscolaHallManager : MonoBehaviour
+public class EscolaHallManager : scene_maneger
 {
-    gamemanager GM;
-    public scenes scene;
 
     GameObject Fala;
     Talk amigos;
-    void Awake()
-    {
-        GM = gamemanager.Instance;
-        Fala = GameObject.FindGameObjectWithTag("Talk");
-    }
+    GameObject Personagem;
+    personagem ronaldo;
+    personagem lucas;
+
 
     void Start()
     {
+        Fala = GameObject.FindGameObjectWithTag("Talk");
+        Personagem = GameObject.FindGameObjectWithTag("Personagens");
+
+        ronaldo = Personagem.transform.GetChild(0).gameObject.GetComponent<personagem>();
+        lucas = Personagem.transform.GetChild(1).gameObject.GetComponent<personagem>();
+
         amigos = Fala.transform.GetChild(0).gameObject.GetComponent<Talk>();
-        GM.updateScene(scene);
     }
     private void Update()
     {
         switch (GM.GetGameState())
         {
             case "ATO1.1":
-                if (amigos.estado.idPergunta == 1)
+                if (amigos.estado.terminou)
                 {
-                    print("aaaaaaaaaa");
+                    ronaldo.move = moveState.mover;
+                    lucas.move = moveState.mover;
+                    Fala.transform.GetChild(0).gameObject.SetActive(false);
+                    //print("aaaaaaaaaa");
                 }
 
                 break;

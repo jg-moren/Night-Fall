@@ -15,7 +15,7 @@ MonoBehaviour:
   sentence:
   - frase: "Co\xE9, Davi! Dormiu muito?\r\n"
     nextSentence: 1
-    sprite: {fileID: 21300000, guid: 3412f286f3790004b97196ec06f80f09, type: 3}
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
     hasAnswer: 0
     answers: []
   - frase: 'O oposto, na verdade.
@@ -28,7 +28,7 @@ MonoBehaviour:
   - frase: "Putz, mano. Voc\xEA tem certeza que est\xE1 de boas? N\xE3o t\xE1 com
       algum problema\r\n\r\n"
     nextSentence: 3
-    sprite: {fileID: 21300000, guid: 6d523e2198475fa4db607256ec1e9fcc, type: 3}
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
     hasAnswer: 1
     answers:
     - frase: "N\xE3o, t\xF4 relax."
@@ -37,7 +37,7 @@ MonoBehaviour:
       nextSentence: 4
   - frase: "Ah, beleza, ent\xE3o.\r\n"
     nextSentence: 5
-    sprite: {fileID: 21300000, guid: 6d523e2198475fa4db607256ec1e9fcc, type: 3}
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
     hasAnswer: 0
     answers: []
   - frase: ...ok.
@@ -47,7 +47,7 @@ MonoBehaviour:
     answers: []
   - frase: "Bom, voc\xEA n\xE3o est\xE1 pior que o Ronaldo!\r\n"
     nextSentence: 6
-    sprite: {fileID: 21300000, guid: e17c5c17911eeb04494f1e6eeb17e6c2, type: 3}
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Qual foi mano?\r"
@@ -57,7 +57,7 @@ MonoBehaviour:
     answers: []
   - frase: "Voc\xEA parece que vai dormir em p\xE9, rapaz!\r"
     nextSentence: 8
-    sprite: {fileID: 21300000, guid: e17c5c17911eeb04494f1e6eeb17e6c2, type: 3}
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
     hasAnswer: 1
     answers:
     - frase: 'Nem todo mundo consegue dormir todas as noites, Lucas.
@@ -77,7 +77,7 @@ MonoBehaviour:
       nextSentence: 13
   - frase: "T\xE1, beleza."
     nextSentence: 10
-    sprite: {fileID: 21300000, guid: e17c5c17911eeb04494f1e6eeb17e6c2, type: 3}
+    sprite: {fileID: 21300000, guid: 3490cc1877bddcf4b96e4743fff74edc, type: 3}
     hasAnswer: 0
     answers: []
   - frase: Agora que a gente terminou isso, vamos logo pra aula.
@@ -87,7 +87,7 @@ MonoBehaviour:
     answers: []
   - frase: "\xC9, voc\xEA t\xE1 bem?\r\n"
     nextSentence: 12
-    sprite: {fileID: 21300000, guid: 3412f286f3790004b97196ec06f80f09, type: 3}
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "S\xF3 tive uma noite lixo, vamos logo pra aula.\r\n"

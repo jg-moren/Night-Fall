@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e72b7da1f9ed831448af8d7b686492d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogues: {fileID: 0}
+  dialogues: {fileID: 11400000, guid: 635e9675eb8a8844c81ffb999b9b5e2e, type: 2}
   estado:
     idPergunta: 0
     idResposta: 0

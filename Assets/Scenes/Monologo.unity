@@ -208,7 +208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d0207c2ca94934e8cce8aca30ab619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 11400000, guid: 0e8ac25f6bdeaa944b34304f7bf48076, type: 2}
+  GM: {fileID: 0}
+  game: {fileID: 11400000, guid: 2319d487f44ced44d8037a34d1d7aa44, type: 2}
 --- !u!4 &82423065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8791110101762427898, guid: 2005b12542c807c47b4efad27f8adabc,

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabf8a50df1fd914ebef3f3e20141df1, type: 3}
+  m_Name: ATO1.1
+  m_EditorClassIdentifier: 
+  Monologo: {fileID: 11400000, guid: 59bc51d0a49214645a878ec8445e247e, type: 2}
+  DaviHome_DaviBedroom: {fileID: 0}
+  DaviHome_Hall: {fileID: 0}
+  DaviHome_Room: {fileID: 0}
+  DaviHome_Rua: {fileID: 0}
+  Escola_Andar: {fileID: 11400000, guid: ad7502b4615ff1348ab3129cc82cce5f, type: 2}
+  Escola_DaviSala: {fileID: 11400000, guid: 6277896b62f10c446951aa78255d7ebe, type: 2}
+  Escola_Hall: {fileID: 11400000, guid: c7337c99b404417419e3cff773a1ff44, type: 2}
+  Escola_Rua: {fileID: 0}
+  Hospital_Andar: {fileID: 0}
+  Hospital_Quarto: {fileID: 0}
+  Hospital_Recepcao: {fileID: 0}
+  Hospital_Rua: {fileID: 0}
+  TestRoom: {fileID: 11400000, guid: 3ef4ca4e162c5064295f8a9b66b0d965, type: 2}

@@ -9,36 +9,48 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 4e4e231a5d7afa54aad0c2f09a7bfdbc
   - enabled: 1
-    path: Assets/Scenes/DaviHome_Room.unity
-    guid: a6436bc88b265084ba49583011a9f0c9
+    path: Assets/Scenes/DaviHome/DaviHome_DaviBedroom.unity
+    guid: 92425350da8897043873d2ace7fd8afd
   - enabled: 1
-    path: Assets/Scenes/DaviHome_bathroom.unity
-    guid: 799f6e99d9d4fd445a411b6866d739e5
-  - enabled: 1
-    path: Assets/Scenes/DaviHome_Hall.unity
+    path: Assets/Scenes/DaviHome/DaviHome_Hall.unity
     guid: bceb8f1557702b845a389c4849f9ae6a
   - enabled: 1
-    path: Assets/Scenes/Hospital_Recepcao.unity
+    path: Assets/Scenes/DaviHome/DaviHome_Room.unity
+    guid: a6436bc88b265084ba49583011a9f0c9
+  - enabled: 1
+    path: Assets/Scenes/DaviHome/DaviHome_Rua.unity
+    guid: 10e6efc193fd3a344bc7980cb0a89306
+  - enabled: 1
+    path: Assets/Scenes/Escola/Escola_Andar.unity
+    guid: 386edea3544830a4898942b8e5200dd8
+  - enabled: 1
+    path: Assets/Scenes/Escola/Escola_DaviSala.unity
+    guid: 9fc8add208696684890f84fbdb0cf764
+  - enabled: 1
+    path: Assets/Scenes/Escola/Escola_Hall.unity
+    guid: 4933611b59997f44fa5372f355ceeeaa
+  - enabled: 1
+    path: Assets/Scenes/Escola/Escola_Rua.unity
+    guid: 08369ee917e8fb4408a505c608a12c2a
+  - enabled: 1
+    path: Assets/Scenes/Hospital/Hospital_Andar.unity
+    guid: dc749a4c8ba1b80469b86a13ed718ecb
+  - enabled: 1
+    path: Assets/Scenes/Hospital/Hospital_Quarto.unity
+    guid: be203d4a81530694b929b5dca7b5e29c
+  - enabled: 1
+    path: Assets/Scenes/Hospital/Hospital_Recepcao.unity
     guid: 444b1b07719c41c4e80e57eff4a9eed2
+  - enabled: 1
+    path: Assets/Scenes/Hospital/Hospital_Rua.unity
+    guid: ba43dfe2c71c9ea46951707104bdacf9
+  - enabled: 1
+    path: Assets/Scenes/Sonho.unity
+    guid: 1d90fa270441aec47b7e65496e4d599e
+  - enabled: 1
+    path: Assets/Scenes/transition.unity
+    guid: dd3953e8f0dff5c48b568744c93c0d8e
   - enabled: 1
     path: Assets/Scenes/Monologo.unity
     guid: e428d39f672feb74da76bf890ad9b35e
-  - enabled: 1
-    path: Assets/Scenes/DaviHome_DaviBedroom.unity
-    guid: 92425350da8897043873d2ace7fd8afd
-  - enabled: 1
-    path: Assets/Scenes/Escola_Hall.unity
-    guid: 4933611b59997f44fa5372f355ceeeaa
-  - enabled: 1
-    path: Assets/Scenes/Escola_DaviSala.unity
-    guid: 9fc8add208696684890f84fbdb0cf764
-  - enabled: 1
-    path: Assets/Scenes/Escola_Andar.unity
-    guid: 386edea3544830a4898942b8e5200dd8
-  - enabled: 1
-    path: Assets/Scenes/Hospital_Andar.unity
-    guid: dc749a4c8ba1b80469b86a13ed718ecb
-  - enabled: 1
-    path: Assets/Scenes/Hospital_quarto.unity
-    guid: be203d4a81530694b929b5dca7b5e29c
   m_configObjects: {}

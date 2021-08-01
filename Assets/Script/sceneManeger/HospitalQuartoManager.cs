@@ -2,22 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HospitalQuartoManager : MonoBehaviour
+public class HospitalQuartoManager : scene_maneger
 {
-    gamemanager GM;
-    public scenes scene;
 
-    void Awake()
-    {
-        GM = gamemanager.Instance;
-    }
+    GameObject Fala;
+    Talk avo;
 
-    void Start()
+    private void Start()
     {
-        GM.updateScene(scene);
+        Fala = GameObject.FindGameObjectWithTag("Talk");
+
+        avo = Fala.transform.GetChild(0).gameObject.GetComponent<Talk>();
     }
     private void Update()
     {
+        switch (GM.GetGameState())
+        {
+            case "ATO1.2":
+                if (avo.estado.terminou)
+                {
+                    GM.SetGameState("ATO1.3");
+                    GM.updateScene(game);
+                }
 
+                break;
+        }
     }
 }

@@ -116,8 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a94bb5c7acb374599af6a4235f227c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.02
-  playerState: {fileID: 11400000, guid: 2ad2f690535b0644895ffab6574b1f74, type: 2}
+  speed: 3
   isStop: 0
 --- !u!50 &2420756851875222542
 Rigidbody2D:

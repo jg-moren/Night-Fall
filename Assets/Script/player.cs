@@ -17,6 +17,7 @@ public class player : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         transform.position = initialState;
         anim.speed = speed / 5;
+        isStop = false;
     }
 
     // Update is called once per frame
@@ -25,6 +26,10 @@ public class player : MonoBehaviour
 
 
 
+    }
+    private void OnGUI()
+    {
+        //GUILayout.TextArea(PlayerPrefs.GetString("gameState"));
     }
     private void FixedUpdate()
     {

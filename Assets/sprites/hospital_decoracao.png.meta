@@ -20,6 +20,24 @@ TextureImporter:
   - first:
       213: -5239639262871084224
     second: hospital_decoracao_5
+  - first:
+      213: -4126056000380306166
+    second: hospital_decoracao_6
+  - first:
+      213: 3672256875901544631
+    second: hospital_decoracao_7
+  - first:
+      213: 8390040130044164703
+    second: hospital_decoracao_8
+  - first:
+      213: 51291047374867987
+    second: hospital_decoracao_9
+  - first:
+      213: -1662173298367215950
+    second: hospital_decoracao_10
+  - first:
+      213: 7545446917137093817
+    second: hospital_decoracao_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -162,8 +180,8 @@ TextureImporter:
       name: hospital_decoracao_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
+        x: 32
+        y: 240
         width: 16
         height: 16
       alignment: 0
@@ -183,8 +201,8 @@ TextureImporter:
       name: hospital_decoracao_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 224
+        x: 48
+        y: 240
         width: 16
         height: 16
       alignment: 0
@@ -205,7 +223,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 208
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -226,7 +244,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 208
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -238,6 +256,132 @@ TextureImporter:
       bones: []
       spriteID: 0432169e9df0947b0800000000000000
       internalID: -5239639262871084224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hospital_decoracao_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d76fdaded4db6c0800000000000000
+      internalID: -4126056000380306166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hospital_decoracao_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8e8141c2a76f230800000000000000
+      internalID: 3672256875901544631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hospital_decoracao_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5afd82cb096f6470800000000000000
+      internalID: 8390040130044164703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hospital_decoracao_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ecfe29fe836b000800000000000000
+      internalID: 51291047374867987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hospital_decoracao_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6cea31136cee8e0800000000000000
+      internalID: -1662173298367215950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hospital_decoracao_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d58f5effc6b860800000000000000
+      internalID: 7545446917137093817
       vertices: []
       indices: 
       edges: []

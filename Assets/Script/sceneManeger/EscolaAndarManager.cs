@@ -2,20 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EscolaAndarManager : MonoBehaviour
-{
-    gamemanager GM;
-    public scenes scene;
+public class EscolaAndarManager : scene_maneger
+{ 
 
-    void Awake()
-    {
-        GM = gamemanager.Instance;
-    }
-
-    void Start()
-    {
-        GM.updateScene(scene);
-    }
     private void Update()
     {
 

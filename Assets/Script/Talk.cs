@@ -8,7 +8,8 @@ public class Talk : MonoBehaviour
 {
 
     public Dialogues dialogues;
-    
+
+
 
     [System.Serializable]
     public class respostas
@@ -188,7 +189,7 @@ public class Talk : MonoBehaviour
     {
         foreach (char letter in frase)//letter passara por todas as letras da frase atual
         {
-            yield return new WaitForSeconds(10.0f*Time.deltaTime);//espera
+            yield return new WaitForSeconds(0.01f);//espera
             texto.text += letter;//escreve a letra
         }
     }

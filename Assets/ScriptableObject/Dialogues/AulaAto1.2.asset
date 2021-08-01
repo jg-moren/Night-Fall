@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence:
   - frase: fasd
-    nextSentence: 0
+    nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0
     answers: []

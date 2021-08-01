@@ -26,7 +26,7 @@ public class Menu_Start : MonoBehaviour
         {
             PlayerPrefs.DeleteAll();
             GM.SetGameState("ATO1.1");
-            SceneManager.LoadScene(sceneName: "monologo");
+            SceneManager.LoadScene(sceneName: "Monologo");
         }
     }
 

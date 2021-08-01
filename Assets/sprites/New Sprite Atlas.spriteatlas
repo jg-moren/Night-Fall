@@ -44,6 +44,7 @@ SpriteAtlas:
     packables:
     - {fileID: 2800000, guid: f3664abd838f385409e8b30fccbfc692, type: 3}
     - {fileID: 2800000, guid: dd8bb02b1d4a0654bbb32c79c2e39088, type: 3}
+    - {fileID: 2800000, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -124,6 +125,18 @@ SpriteAtlas:
   - {fileID: 3590423712035577035, guid: dd8bb02b1d4a0654bbb32c79c2e39088, type: 3}
   - {fileID: 6714978599992283106, guid: dd8bb02b1d4a0654bbb32c79c2e39088, type: 3}
   - {fileID: -8125255665655747681, guid: dd8bb02b1d4a0654bbb32c79c2e39088, type: 3}
+  - {fileID: 7545446917137093817, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: -1662173298367215950, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: -4126056000380306166, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: 3672256875901544631, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: 5490323224421819403, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: -5239639262871084224, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: -7086948963181634455, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: -2979835665251404186, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: 3126118542036490833, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: -6826401583670880732, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: 8390040130044164703, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
+  - {fileID: 51291047374867987, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
   - {fileID: -8452650983688272584, guid: f3664abd838f385409e8b30fccbfc692, type: 3}
   - {fileID: -4443812131819662092, guid: f3664abd838f385409e8b30fccbfc692, type: 3}
   - {fileID: 8077516780084112536, guid: f3664abd838f385409e8b30fccbfc692, type: 3}
@@ -236,6 +249,18 @@ SpriteAtlas:
   - casa_decoracao_18
   - casa_decoracao_28
   - casa_decoracao_29
+  - hospital_decoracao_11
+  - hospital_decoracao_10
+  - hospital_decoracao_6
+  - hospital_decoracao_7
+  - hospital_decoracao_4
+  - hospital_decoracao_5
+  - hospital_decoracao_2
+  - hospital_decoracao_3
+  - hospital_decoracao_0
+  - hospital_decoracao_1
+  - hospital_decoracao_8
+  - hospital_decoracao_9
   - escola_decoracao_10
   - escola_decoracao_11
   - escola_decoracao_16
