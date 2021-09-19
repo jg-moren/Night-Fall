@@ -9,22 +9,23 @@ using UnityEngine.SceneManagement;
 public class Options : MonoBehaviour
 {
     GameObject option;
+
+    GameObject controles;
     bool isOpen = false;
     player player;
-    Button musica;
-    Button menu;
-    Button voltar;
+    bool musica;
+    Image spr_musica;
+    public Sprite musica_on;
+    public Sprite musica_off;
 
 
-
-    // Start is called before the first frame update
     void Awake()
     {
         option = gameObject.transform.GetChild(0).gameObject;
+        controles = gameObject.transform.GetChild(1).gameObject;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<player>();
-        //option.gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.GetComponent<Button>().onClick.AddListener(() => ButtonClicked(42));
-        //option.gameObject.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.GetComponent<Button>().onClick.AddListener(() => ButtonClicked(42));
-        //option.gameObject.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<Button>().onClick.AddListener(() => ButtonClicked(42));
+        musica = false;
+        spr_musica = transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
     }
 
     public void Menu()
@@ -33,7 +34,25 @@ public class Options : MonoBehaviour
     }
     public void Musica()
     {
-        Debug.Log("musica");
+        musica = musica ? false : true;
+        if (musica)
+        {
+            spr_musica.sprite = musica_on;
+        }
+        else
+        {
+            spr_musica.sprite = musica_off;
+        }
+    }
+    public void Controles()
+    {
+        controles.SetActive(true);
+        option.SetActive(false);
+    }
+    public void ControlesFechar()
+    {
+        option.SetActive(true);
+        controles.SetActive(false);
     }
     public void Voltar()
     {
@@ -41,7 +60,6 @@ public class Options : MonoBehaviour
         openOptions();
     }
 
-    // Update is called once per frame
     void Update()
     {
 

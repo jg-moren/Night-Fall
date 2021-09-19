@@ -16,13 +16,6 @@ public class TestRoomManager : scene_maneger
 
     private void Update()
     {
-        GM.updateScene(game);
 
-        switch (GM.GetGameState())
-        {
-            case "ATO1.1":
-
-                break;
-        }
     }
 }

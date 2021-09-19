@@ -28,13 +28,17 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: de164115b96980a499fcb1aa3abd0bf0, type: 3}
     - {fileID: 2800000, guid: 6576e57edf947dd41800541402de074f, type: 3}
     - {fileID: 2800000, guid: 7331c4326f60b5d4f8d63f1ed645d1c8, type: 3}
     - {fileID: 2800000, guid: 15cff48b2997d404cb05f1109571792c, type: 3}
+    totalSpriteSurfaceArea: 17920
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: -4794246666262197178, guid: 7331c4326f60b5d4f8d63f1ed645d1c8, type: 3}
@@ -178,5 +182,6 @@ SpriteAtlas:
   - hospital_elements_12
   - hospital_elements_19
   - hospital_elements_18
+  m_RenderDataMap: {}
   m_Tag: Sprite Atlas
   m_IsVariant: 0

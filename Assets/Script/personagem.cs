@@ -52,8 +52,11 @@ public class personagem : MonoBehaviour
 
         if (isMove && (movePoints.Length>pointId))
         {
-            transform.position += new Vector3((movePoints[pointId].x > transform.position.x) ? speed : -speed, (movePoints[pointId].y > transform.position.y) ? speed : -speed, 0) * Time.deltaTime;
+            Vector3 addmove = new Vector3(0,0,0);
+            if (transform.position.x.ToString("0.0") != movePoints[pointId].x.ToString("0.0")) addmove.x = (movePoints[pointId].x > transform.position.x) ? speed : -speed;
+            if (transform.position.y.ToString("0.0") != movePoints[pointId].y.ToString("0.0")) addmove.y = (movePoints[pointId].y > transform.position.y) ? speed : -speed;
 
+            transform.position += addmove * Time.deltaTime;
             anim.SetFloat("Vertical",   (movePoints[pointId].y - transform.position.y) );
             anim.SetFloat("Horizontal", (movePoints[pointId].x - transform.position.x) );
 

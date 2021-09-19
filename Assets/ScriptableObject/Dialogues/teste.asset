@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: teste
   m_EditorClassIdentifier: 
   sentence:
-  - frase: testando
+  - frase: testando #aa# aaa   #aa#
     nextSentence: 1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: c2509346cbfd5f04a876e780b070f53b, type: 3}
     hasAnswer: 0
     answers: []
   - frase: funcionou?
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ea6677fdb87166c438480e09fbd46ee4, type: 3}
     hasAnswer: 0
     answers: []

@@ -21,7 +21,9 @@ public class transition_map : MonoBehaviour
     void Start()
     {
         player = transform.GetChild(0).GetComponent<personagem>();
-        player.transform.position = lugares[0].coo;
+        position = (int)PlayerPrefs.GetFloat("Save:position.x");
+
+        player.transform.position = lugares[position].coo;
     }
 
     // define o personagem para ir para a posicao selecionada
@@ -33,21 +35,10 @@ public class transition_map : MonoBehaviour
         player.ResetValue();
     }
 
-    //retorna as teclas que podem ser clicadas
-    bool getKey()
-    {
-        return 
-            (
-            Input.GetKeyDown(KeyCode.A) ||
-            Input.GetKeyDown(KeyCode.D) ||
-            Input.GetKeyDown(KeyCode.LeftArrow) ||
-            Input.GetKeyDown(KeyCode.RightArrow)
-            );
-    }
     void Update()
     {
         // varia a 'position' restingido de 0 a 2 ao pressionar alguma tecla. varia com o movimento horizontal
-        if (getKey())
+        if (Input.GetAxisRaw("Horizontal")!=0 && Input.anyKeyDown)
         {
             position += (int)Input.GetAxisRaw("Horizontal");
             if (!(position < 0 || 2 < position))
@@ -61,7 +52,7 @@ public class transition_map : MonoBehaviour
 
 
         // ao selecionar alguma opcao ele carrega a cena e a localizacao
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetAxisRaw("Submit") == 1 && Input.anyKeyDown)
         {
             PlayerPrefs.SetString("Save:cena", lugares[position].nextScene);
             PlayerPrefs.SetFloat("Save:position.x", lugares[position].initialPosition.x);

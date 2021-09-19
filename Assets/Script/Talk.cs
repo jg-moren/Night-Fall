@@ -32,6 +32,7 @@ public class Talk : MonoBehaviour
     GameObject canvas;//variavel da UI na tela
     player player;//importa a classe player para ter acesso as variaveis publicas
     int idfrase = -1;//controla em qual frase o player esta
+    bool raiva = false;
 
     int idAnswer;
     GameObject answer;
@@ -112,15 +113,15 @@ public class Talk : MonoBehaviour
             if (dialogues.sentence[idfrase].hasAnswer)
             {
                 answer.SetActive(dialogues.sentence[idfrase].hasAnswer);
-                if (Input.GetKeyDown(KeyCode.W) && idAnswer < -1)idAnswer += 1;
-                if (Input.GetKeyDown(KeyCode.S) && idAnswer > -(dialogues.sentence[idfrase].answers.Length))idAnswer -= 1;
+                if (Input.GetAxisRaw("Vertical")== 1 && Input.anyKeyDown && idAnswer < -1)idAnswer += 1;
+                if (Input.GetAxisRaw("Vertical") ==-1 && Input.anyKeyDown && idAnswer > -(dialogues.sentence[idfrase].answers.Length))idAnswer -= 1;
                 setAnswer();
             }
             else
             {
                 answer.SetActive(dialogues.sentence[idfrase].hasAnswer);
             }
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetAxisRaw("Submit")==1 && Input.anyKeyDown )
             {
                 StopAllCoroutines();
                 nextSentence();
@@ -128,7 +129,7 @@ public class Talk : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.E) && alert.activeInHierarchy && !canvas.activeInHierarchy)
+            if (Input.anyKeyDown && Input.GetAxisRaw("Submit") == 1 && alert.activeInHierarchy && !canvas.activeInHierarchy)
             {
                 StartDialog();
             }
@@ -187,10 +188,29 @@ public class Talk : MonoBehaviour
 
     IEnumerator write(string frase, Text texto)//corrotina para escrever as letras uma por uma
     {
+
         foreach (char letter in frase)//letter passara por todas as letras da frase atual
         {
             yield return new WaitForSeconds(0.01f);//espera
-            texto.text += letter;//escreve a letra
+            if(letter == '#')
+            {
+                if (!raiva){
+                    raiva = true;
+                    texto.text += "<color=red></color>";
+                }
+                else{
+                    raiva = false;
+                }
+            }
+            else
+            {
+                if (raiva){
+                    texto.text = texto.text.Insert(texto.text.Length-8, letter.ToString());
+                }
+                else{
+                    texto.text += letter;
+                }
+            }
         }
     }
     public void nextSentence()

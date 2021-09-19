@@ -17,4 +17,4 @@ MonoBehaviour:
   talk:
   - opicional: 1
     ativo: 1
-    dialogo: {fileID: 11400000, guid: c151455c4dfaaf54c91d3f27ef5493a9, type: 2}
+    dialogo: {fileID: 11400000, guid: 6d81b0790dd99de47b45234d59b13c8b, type: 2}

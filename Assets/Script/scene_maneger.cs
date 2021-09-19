@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-
 public class scene_maneger : MonoBehaviour
 {
 
@@ -11,7 +10,7 @@ public class scene_maneger : MonoBehaviour
 
     void Awake()
     {
-        GM = gamemanager.Instance;
+        GM = new gamemanager();
         GM.updateScene(game);
 
     }

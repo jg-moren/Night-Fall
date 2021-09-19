@@ -10,9 +10,17 @@ public class Menu_New : MonoBehaviour
 
     void Awake()
     {
-        GM = gamemanager.Instance;
+        GM = new gamemanager();
     }
 
+    private void OnMouseOver()
+    {
+        GetComponent<SpriteRenderer>().color = new Color(0.5f, 0.5f, 0.5f, 1);
+    }
+    private void OnMouseExit()
+    {
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+    }
 
     private void OnMouseDown()
     {

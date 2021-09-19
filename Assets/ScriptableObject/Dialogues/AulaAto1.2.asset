@@ -15,6 +15,6 @@ MonoBehaviour:
   sentence:
   - frase: fasd
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ea6677fdb87166c438480e09fbd46ee4, type: 3}
     hasAnswer: 0
     answers: []

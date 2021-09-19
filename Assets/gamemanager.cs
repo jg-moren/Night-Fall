@@ -77,7 +77,7 @@ public class gamemanager : MonoBehaviour
         if (RoomName == "TestRoom") return AtoAtual.TestRoom;
         return null;
     }
-
+    /*
     //sla oq isso faz ;-;
     private static gamemanager instance;
 
@@ -93,5 +93,5 @@ public class gamemanager : MonoBehaviour
 
             return instance;
         }
-    }
+    }*/
 }

@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: HospitalRecepcao1.2
   m_EditorClassIdentifier: 
   transition: []
-  personagens: []
+  personagens:
+  - ativo: 1
+    initialPosition: {x: 0.5, y: 4.25, z: 0}
+    move: 0
+    speed: 0
+    pointPositions:
+    - {x: 0, y: 0}
   talk:
   - opicional: 0
     ativo: 1
     dialogo: {fileID: 11400000, guid: 2872fc834ec6aa84aa9df4b9dce1f03b, type: 2}
+  - opicional: 1
+    ativo: 1
+    dialogo: {fileID: 11400000, guid: 48834605ddaa929489a16518dfb60d1c, type: 2}
