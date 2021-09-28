@@ -10,6 +10,8 @@ public class player : MonoBehaviour
     Vector2 movement;
     public bool isStop = false;
     
+
+    //configura o personagem para que na troca de cenas ele nao comece errado
     void Awake()
     {
         Vector3 initialState = new Vector3(PlayerPrefs.GetFloat("Save:position.x"), PlayerPrefs.GetFloat("Save:position.y"), 0);
@@ -20,13 +22,7 @@ public class player : MonoBehaviour
         isStop = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-
-
-    }
+    //PROVISORIO para mostrar o ato atual na tela
     private void OnGUI()
     {
         //GUILayout.TextArea(PlayerPrefs.GetString("gameState"));
