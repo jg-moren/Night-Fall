@@ -21,8 +21,8 @@ MonoBehaviour:
   Escola_DaviSala: {fileID: 11400000, guid: 47a4e3105c2c1d14d8e9a2e6273ed021, type: 2}
   Escola_Hall: {fileID: 11400000, guid: 2adec7644bce2d8438d94cccbc162e5b, type: 2}
   Escola_Rua: {fileID: 11400000, guid: dbe2ab1552213f541a490c27938068c3, type: 2}
-  Hospital_Andar: {fileID: 0}
-  Hospital_Quarto: {fileID: 0}
+  Hospital_Andar: {fileID: 11400000, guid: 797e63f185e43764aa3d14deba001498, type: 2}
+  Hospital_Quarto: {fileID: 11400000, guid: 6aaf313efcddd0e4e9015b29eb81ca35, type: 2}
   Hospital_Recepcao: {fileID: 11400000, guid: 11ea778771d28b447ab6d8053fc5edcc, type: 2}
   Hospital_Rua: {fileID: 0}
   TestRoom: {fileID: 0}

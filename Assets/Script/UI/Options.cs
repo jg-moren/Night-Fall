@@ -9,6 +9,8 @@ using UnityEngine.SceneManagement;
 public class Options : MonoBehaviour
 {
     GameObject option;
+
+    GameObject controles;
     bool isOpen = false;
     player player;
     bool musica;
@@ -20,6 +22,7 @@ public class Options : MonoBehaviour
     void Awake()
     {
         option = gameObject.transform.GetChild(0).gameObject;
+        controles = gameObject.transform.GetChild(1).gameObject;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<player>();
         musica = false;
         spr_musica = transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
@@ -43,7 +46,13 @@ public class Options : MonoBehaviour
     }
     public void Controles()
     {
-        Debug.Log("Controles");
+        controles.SetActive(true);
+        option.SetActive(false);
+    }
+    public void ControlesFechar()
+    {
+        option.SetActive(true);
+        controles.SetActive(false);
     }
     public void Voltar()
     {

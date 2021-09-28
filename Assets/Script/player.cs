@@ -25,7 +25,7 @@ public class player : MonoBehaviour
     //PROVISORIO para mostrar o ato atual na tela
     private void OnGUI()
     {
-        //GUILayout.TextArea(PlayerPrefs.GetString("gameState"));
+        GUILayout.TextArea(PlayerPrefs.GetString("gameState"));
     }
     private void FixedUpdate()
     {
