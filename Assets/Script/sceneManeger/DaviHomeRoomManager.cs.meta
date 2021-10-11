@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdab371a74b5ee54681ce2e1cf6cf8c2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GM: {instanceID: 0}
+  - game: {fileID: 11400000, guid: 2319d487f44ced44d8037a34d1d7aa44, type: 2}
+  - sair_com: {fileID: 11400000, guid: 5fe2266e3978e044c9e5e595efa9971a, type: 2}
+  - outro_com: {fileID: 11400000, guid: 42de3bd51a12f9d49ad0ed84a9651922, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

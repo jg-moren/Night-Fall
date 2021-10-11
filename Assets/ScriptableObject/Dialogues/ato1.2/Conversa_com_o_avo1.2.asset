@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Conversa_com_o_avo1.2
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "Ol\xE1, vov\xF4.\r"
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: 52e13221c8481514499b0e9a210e7194, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Oooo, se n\xE3o \xE9 o meu neto mais velho favorito!"
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "(sorrindo) Ainda fazendo essa piada?\r"
+    nextSentence: 3
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Bom... ela funciona, n\xE3o?\r\n"
+    nextSentence: 4
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: '. . .
+
+'
+    nextSentence: 5
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "E como est\xE1 a escola?\n"
+    nextSentence: 6
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: 'O mesmo de sempre.
+
+'
+    nextSentence: 7
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Continua mal em f\xEDsica?\r\n"
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "A diferen\xE7a \xE9 que agora eu n\xE3o tenho mais um av\xF4 engenheiro
+        para me ajudar "
+      nextSentence: 8
+    - frase: " \xC9\u2026\r\n"
+      nextSentence: 9
+  - frase: 'Hahaha! Eu me sinto lisonjeado!
+
+'
+    nextSentence: 11
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ah, voc\xEA arruma um jeito.\n"
+    nextSentence: 10
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: '. . .
+
+'
+    nextSentence: 11
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "E como est\xE1 em casa?\n"
+    nextSentence: 12
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: 'Um lixo.
+
+'
+    nextSentence: 13
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Voc\xEA sabe que eles te amam, n\xE9?\r\n\n"
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "\xC0s vezes n\xE3o parece\u2026"
+      nextSentence: 16
+    - frase: "Olha, eu sei, mas \xE0s vezes fica muito dif\xEDcil."
+      nextSentence: 14
+  - frase: "Se voc\xEA sabe, ent\xE3o voc\xEA sabe que tudo o que eles fazem \xE9
+      pelo o seu bem!\r"
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "#Ainda sim!\r#"
+      nextSentence: 16
+    - frase: "\xC0s vezes n\xE3o parece\u2026\r\n"
+      nextSentence: 17
+  - frase: "Calma, Davi.\r"
+    nextSentence: 18
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xC0s vezes n\xE3o parece\u2026"
+    nextSentence: 18
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Olha, voc\xEA precisa reconhecer que seus pais querem o seu bem!\r"
+    nextSentence: -1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []

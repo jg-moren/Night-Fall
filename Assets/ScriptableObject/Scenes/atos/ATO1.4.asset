@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabf8a50df1fd914ebef3f3e20141df1, type: 3}
+  m_Name: ATO1.4
+  m_EditorClassIdentifier: 
+  Monologo: {fileID: 0}
+  DaviHome_DaviBedroom: {fileID: 0}
+  DaviHome_Hall: {fileID: 0}
+  DaviHome_Room: {fileID: 0}
+  DaviHome_Rua: {fileID: 0}
+  Escola_Andar: {fileID: 0}
+  Escola_DaviSala: {fileID: 0}
+  Escola_Hall: {fileID: 0}
+  Escola_Rua: {fileID: 0}
+  Hospital_Andar: {fileID: 0}
+  Hospital_Quarto: {fileID: 0}
+  Hospital_Recepcao: {fileID: 0}
+  Hospital_Rua: {fileID: 0}
+  TestRoom: {fileID: 0}

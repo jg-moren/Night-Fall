@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: DespedidaAto1
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "Bom, hoje foi chato, mas n\xE3o foi surpreendente."
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: 0a9cd944d97278a44bd39c421ec98a73, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Sim, foi bem droga
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "E a\xED, Davi? T\xE1 indo pra casa?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: Sim (mentir)
+      nextSentence: 3
+    - frase: "N\xE3o"
+      nextSentence: 6
+  - frase: "\xC9, eu to indo para casa"
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ok, ent\xE3o. A gente se v\xEA!"
+    nextSentence: 5
+    sprite: {fileID: 21300000, guid: 0a9cd944d97278a44bd39c421ec98a73, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Falou
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "A\xE9? Ent\xE3o voc\xEA t\xE1 indo para onde?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "N\xE3o \xE9 d\xE1 sua conta"
+      nextSentence: 7
+    - frase: "\xC9 coisa dos meus pais"
+      nextSentence: 4
+  - frase: Caramba mano...
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: 0a9cd944d97278a44bd39c421ec98a73, type: 3}
+    hasAnswer: 0
+    answers: []

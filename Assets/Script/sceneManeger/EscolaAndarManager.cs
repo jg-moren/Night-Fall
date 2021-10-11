@@ -5,8 +5,4 @@ using UnityEngine;
 public class EscolaAndarManager : scene_maneger
 { 
 
-    private void Update()
-    {
-
-    }
 }

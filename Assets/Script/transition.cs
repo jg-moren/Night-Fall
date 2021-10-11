@@ -25,6 +25,15 @@ public class transition : MonoBehaviour
 
         }
     }
+    
+    public void ativar(string _nextScene , Vector2 _initialPosition)
+    {
+        nextScene = _nextScene;
+        initialPosition = _initialPosition;
+        player.isStop = true;
+        StartCoroutine(LoadNextScene());
+
+    }
     IEnumerator LoadNextScene()
     {
         anim.SetBool("Start", true);

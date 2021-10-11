@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e4a85c58099e74e964f8b167aec606, type: 3}
+  m_Name: Escola_DaviSala1
+  m_EditorClassIdentifier: 
+  transition:
+  - isLoked: 1
+  personagens:
+  - ativo: 1
+    initialPosition: {x: 0, y: 7, z: 0}
+    move: 0
+    speed: 0
+    pointPositions: []
+  talk:
+  - opicional: 0
+    ativo: 1
+    dialogo: {fileID: 11400000, guid: 208cae56c4b20e14888eb547ee0d9082, type: 2}

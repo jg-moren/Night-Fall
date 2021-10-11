@@ -34,6 +34,8 @@ public class Talk : MonoBehaviour
     int idfrase = -1;//controla em qual frase o player esta
     bool raiva = false;
 
+    bool terminou_frase = false;
+
     int idAnswer;
     GameObject answer;
     Text answer0;
@@ -81,23 +83,29 @@ public class Talk : MonoBehaviour
     }
     void setAnswer()
     {
-        answer0.color = Color.white;
-        answer1.color = Color.white;
-        answer2.color = Color.white;
-        answer3.color = Color.white;
+        
+        GameObject marker0 = answer0.transform.GetChild(0).gameObject;
+        GameObject marker1 = answer1.transform.GetChild(0).gameObject;
+        GameObject marker2 = answer2.transform.GetChild(0).gameObject;
+        GameObject marker3 = answer3.transform.GetChild(0).gameObject;
+
+        marker0.SetActive(false);
+        marker1.SetActive(false);
+        marker2.SetActive(false);
+        marker3.SetActive(false);
         switch (idAnswer)
         {
-            case -1: 
-                answer0.color = Color.red;
+            case -1:
+                marker0.SetActive(true);
                 break;
             case -2:
-                answer1.color = Color.red;
+                marker1.SetActive(true);
                 break;
             case -3:
-                answer2.color = Color.red;
+                marker2.SetActive(true);
                 break;
             case -4:
-                answer3.color = Color.red;
+                marker3.SetActive(true);
                 break;
         }
     }
@@ -121,8 +129,9 @@ public class Talk : MonoBehaviour
             {
                 answer.SetActive(dialogues.sentence[idfrase].hasAnswer);
             }
-            if (Input.GetAxisRaw("Submit")==1 && Input.anyKeyDown )
+            if (Input.GetAxisRaw("Submit")==1 && Input.anyKeyDown && terminou_frase)
             {
+                terminou_frase = false;
                 StopAllCoroutines();
                 nextSentence();
             }
@@ -212,6 +221,7 @@ public class Talk : MonoBehaviour
                 }
             }
         }
+        terminou_frase = true;
     }
     public void nextSentence()
     {
