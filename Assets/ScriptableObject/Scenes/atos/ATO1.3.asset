@@ -22,8 +22,8 @@ MonoBehaviour:
   Escola_DaviSala: {fileID: 0}
   Escola_Hall: {fileID: 0}
   Escola_Rua: {fileID: 0}
-  Hospital_Andar: {fileID: 0}
-  Hospital_Quarto: {fileID: 0}
+  Hospital_Andar: {fileID: 11400000, guid: 8d736bbb6ae7509449f70fd4feccbf02, type: 2}
+  Hospital_Quarto: {fileID: 11400000, guid: 5bc38599c3794884481b47352614260b, type: 2}
   Hospital_Recepcao: {fileID: 11400000, guid: be48bb728a99dcf4a81cd59f803b09cf, type: 2}
   Hospital_Rua: {fileID: 0}
   TestRoom: {fileID: 0}

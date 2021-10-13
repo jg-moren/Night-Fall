@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
   m_Name: Chamar_jantar1.3
   m_EditorClassIdentifier: 
-  sentence: []
+  sentence:
+  - frase: 'DAVI! HORA DA JANTA!
+
+'
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "OK! J\xC1 VOU!\r\n"
+    nextSentence: -1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []

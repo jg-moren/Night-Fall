@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: []
   personagens:
-  - ativo: 0
-    initialPosition: {x: 0, y: 0, z: 0}
+  - ativo: 1
+    initialPosition: {x: 15.5, y: 5, z: 0}
     move: 0
     speed: 0
     pointPositions: []

@@ -13,7 +13,24 @@ MonoBehaviour:
   m_Name: Entrar_em_outro_comodo1.3
   m_EditorClassIdentifier: 
   sentence:
-  - frase: sair  sem
+  - frase: "Os copos n\xE3o ficam a\xED!\r\n"
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu s\xF3 preciso fazer uma coisa rapidinho!\r\n"
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: 'Essa coisa pode esperar! Pegue os copos!
+
+'
+    nextSentence: 3
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Humpf!
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

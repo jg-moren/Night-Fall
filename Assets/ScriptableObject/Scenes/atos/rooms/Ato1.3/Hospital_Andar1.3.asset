@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
-  m_Name: Entrar_no_quarto1.3
+  m_Script: {fileID: 11500000, guid: c0e4a85c58099e74e964f8b167aec606, type: 3}
+  m_Name: Hospital_Andar1.3
   m_EditorClassIdentifier: 
-  sentence:
-  - frase: " (Ok, fazer o que agora?)\r"
-    nextSentence: -1
-    sprite: {fileID: 0}
-    hasAnswer: 0
-    answers: []
+  transition: []
+  personagens: []
+  talk:
+  - opicional: 0
+    ativo: 0
+    dialogo: {fileID: 0}

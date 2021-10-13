@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cadeira
   m_EditorClassIdentifier: 
   sentence:
-  - frase: 'jogar
+  - frase: 'Eu jogo no PC?
 
 '
     nextSentence: 0
@@ -21,6 +21,26 @@ MonoBehaviour:
     hasAnswer: 1
     answers:
     - frase: Sim
-      nextSentence: -1
+      nextSentence: 1
     - frase: Nao
-      nextSentence: -1
+      nextSentence: 3
+  - frase: "Faz um tempo que eu n\xE3o jogo Galaga\u2026"
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Bom, vamos l\xE1!\r"
+    nextSentence: -1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: " \xC9, agora n\xE3o\u2026\r"
+    nextSentence: 4
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "J\xE1 est\xE1 quase na hora do almo\xE7o\u2026\r\n"
+    nextSentence: -1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []

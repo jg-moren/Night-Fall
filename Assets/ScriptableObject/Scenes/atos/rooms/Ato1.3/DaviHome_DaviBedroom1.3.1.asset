@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e4a85c58099e74e964f8b167aec606, type: 3}
   m_Name: DaviHome_DaviBedroom1.3.1
   m_EditorClassIdentifier: 
-  transition: []
+  transition:
+  - isLoked: 0
+  - isLoked: 1
   personagens: []
   talk:
   - opicional: 0

@@ -41,7 +41,7 @@ public class DaviHomeRoomManager : scene_maneger
                     talk.transform.GetChild(2).GetComponent<Talk>().dialogues = outro_com;
                     talk.transform.GetChild(3).GetComponent<Talk>().dialogues = sair_com;
                 }
-                if (talk.transform.GetChild(4).GetComponent<Talk>().estado.Resposta == "Sim")
+                if (talk.transform.GetChild(4).GetComponent<Talk>().estado.idPergunta == 1)
                 {
                     talk.transform.GetChild(4).gameObject.SetActive(false);
                     talk.transform.GetChild(2).gameObject.SetActive(false);

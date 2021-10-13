@@ -65,7 +65,7 @@ MonoBehaviour:
   - frase: 'Hahaha! Eu me sinto lisonjeado!
 
 '
-    nextSentence: 11
+    nextSentence: 10
     sprite: {fileID: 0}
     hasAnswer: 0
     answers: []
@@ -109,20 +109,179 @@ MonoBehaviour:
     hasAnswer: 1
     answers:
     - frase: "#Ainda sim!\r#"
-      nextSentence: 16
+      nextSentence: 15
     - frase: "\xC0s vezes n\xE3o parece\u2026\r\n"
-      nextSentence: 17
+      nextSentence: 16
   - frase: "Calma, Davi.\r"
+    nextSentence: 16
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Olha, voc\xEA precisa reconhecer que seus pais querem o seu bem!"
+    nextSentence: 17
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Se eles #realmente# quisessem o meu bem, eles n\xE3o ficariam enchendo
+      tanto o meu saco sobre a escola!\r\n"
     nextSentence: 18
     sprite: {fileID: 0}
     hasAnswer: 0
     answers: []
-  - frase: "\xC0s vezes n\xE3o parece\u2026"
-    nextSentence: 18
+  - frase: Sabe como se resol-
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "Sim, eu tenho que estudar, mas qual \xE9 o ponto de estudar, hein?
+        A maior parte das mat\xE9rias que eu sou ruim n\xE3o v\xE3o fazer diferen\xE7a
+        para o que eu quero fazer!"
+      nextSentence: 19
+    - frase: "(n\xE3o interrompe)"
+      nextSentence: 20
+  - frase: "Mas cai no vestibular, pronto. Tem que saber, sen\xE3o voc\xEA se ferra,
+      Davi!"
+    nextSentence: 23
     sprite: {fileID: 0}
     hasAnswer: 0
     answers: []
-  - frase: "Olha, voc\xEA precisa reconhecer que seus pais querem o seu bem!\r"
+  - frase: Sabe como se resolve isso?
+    nextSentence: 21
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Estudando, beleza, mas qual \xE9 o ponto? Se eu nem vou trabalhar com
+      essas mat\xE9rias?"
+    nextSentence: 22
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Vestibular. Voc\xEA tem que passar para conseguir trabalhar com o que
+      voc\xEA quer."
+    nextSentence: 23
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "E o que voc\xEA realmente quer fazer, hein?"
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "(sarc\xE1stico) Guarda Florestal."
+      nextSentence: 24
+    - frase: "Sei l\xE1! Eu ainda tenho tempo! E eu sei que eu n\xE3o vou trabalhar
+        com f\xEDsica ou qualquer outra desgra\xE7a desse tipo!"
+      nextSentence: 26
+  - frase: "Davi\u2026"
+    nextSentence: 25
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Sei l\xE1! Eu ainda tenho tempo! E eu sei que eu n\xE3o vou trabalhar
+      com f\xEDsica ou qualquer outra desgra\xE7a desse tipo!"
+    nextSentence: 26
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "O ponto, voc\xEA n\xE3o tanto assim. Quando voc\xEA chegar no \xFAltimo
+      trimestre voc\xEA saber\u2026"
+    nextSentence: 27
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xC9 o que todo mundo me diz\u2026"
+    nextSentence: 28
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "L\xF3gico, ainda n\xE3o caiu a ficha para voc\xEA."
+    nextSentence: 29
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 30
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Bom, eu acho que voc\xEA precisa dar uma tranquilizada."
+    nextSentence: 31
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Meus pais falam que eu j\xE1 fiz isso demais\u2026"
+    nextSentence: 32
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "O fato \xE9 que voc\xEA n\xE3o est\xE1! Voc\xEA parece bem estressado\u2026"
+    nextSentence: 33
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu sei, mas com eles n\xE3o d\xE1!"
+    nextSentence: 34
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Olha, eu n\xE3o queria ser um chato, mas voc\xEA precisa aprender a conviver
+      com eles. Eles v\xE3o fazer parte da sua vida por um certo tempo ainda. E voc\xEA
+      precisa controlar essa sua raiva, ok?"
+    nextSentence: 35
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ok\u2026"
+    nextSentence: 36
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xD3timo."
+    nextSentence: 37
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 38
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "J\xE1 est\xE1 ficando na hora de eu ir\u2026"
+    nextSentence: 39
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Sim\u2026"
+    nextSentence: 40
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Acho que \xE9 isso ent\xE3o\u2026"
+    nextSentence: 41
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Foi bom te ver meu neto.
+    nextSentence: 42
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Igualmente
+    nextSentence: 43
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: E lembre do que eu falei, ok?
+    nextSentence: 44
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ok, obrigado vov\xF4."
+    nextSentence: 45
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Sem problema, at\xE9 a pr\xF3xima visita!"
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

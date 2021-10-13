@@ -19,6 +19,13 @@ MonoBehaviour:
     hasAnswer: 1
     answers:
     - frase: Sim
-      nextSentence: -1
+      nextSentence: 1
     - frase: "N\xE3o"
       nextSentence: -1
+  - frase: '(Pronto, agora vou dar uma relaxada no quarto)
+
+'
+    nextSentence: -1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []

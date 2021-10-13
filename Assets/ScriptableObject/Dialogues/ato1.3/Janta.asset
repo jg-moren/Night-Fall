@@ -13,7 +13,114 @@ MonoBehaviour:
   m_Name: Janta
   m_EditorClassIdentifier: 
   sentence:
-  - frase: janta
+  - frase: Tem o que de bom?
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Frango.
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Salada.
+    nextSentence: 3
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Hmm\u2026"
+    nextSentence: 4
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 5
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Como foi na escola?
+    nextSentence: 6
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Eh.
+    nextSentence: 7
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Chegou a nota daquele teste?
+    nextSentence: 8
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "N\xE3o."
+    nextSentence: 9
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "E aquela menina? Ela j\xE1 voltou de viagem? "
+    nextSentence: 10
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "A gente pode falar de QUALQUER coisa que n\xE3o seja sobre escola?"
+    nextSentence: 11
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "A gente s\xF3 quer saber como o nosso filhinho est\xE1!"
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "S\xF3 d\xE1 pra n\xE3o ser sobre escola?"
+      nextSentence: 12
+    - frase: "N\xE3o interessa! O seu \"filhinho'' n\xE3o quer conversar sobre essa
+        baga\xE7a!"
+      nextSentence: 15
+  - frase: "Qual \xE9 o problema de falar sobre escola contigo, hein?"
+    nextSentence: 0
+    sprite: {fileID: 0}
+    hasAnswer: 1
+    answers:
+    - frase: "Parece que \xE9 tudo o que voc\xEAs sabem falar comigo!"
+      nextSentence: 13
+    - frase: "Eu j\xE1 tenho que lidar com essa droga todas as manh\xE3s! N\xE3o
+        preciso ser lembrado disso no jantar tamb\xE9m!"
+      nextSentence: 14
+  - frase: "Quando voc\xEA quiser iniciar uma conversa, voc\xEA pode escolher o assunto!
+      Agora n\xF3s queremos saber como foi na escola!"
+    nextSentence: 16
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Olha, at\xE9 voc\xEA passar no Enem ou um outro vestibular, essa \xE9
+      a sua vida, ok?"
+    nextSentence: 16
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: " Segura a onda a\xED, rapaz!"
+    nextSentence: 16
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 17
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Perdi a fome.
+    nextSentence: 18
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Voc\xEA tem certeza que n\xE3o quer-"
+    nextSentence: 19
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: '#Perdi a fome.#'
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

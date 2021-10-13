@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: outro_comodo_com_copos1.3
   m_EditorClassIdentifier: 
   sentence:
-  - frase: com sair
+  - frase: "Para onde voc\xEA est\xE1 indo com os copos?!\r\n"
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu estou indo fazer uma pir\xE2mide com eles!\r\n"
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Vai fazer uma pir\xE2mide na mesa de jantar!\r"
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

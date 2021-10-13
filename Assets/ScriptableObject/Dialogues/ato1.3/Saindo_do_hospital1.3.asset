@@ -13,7 +13,19 @@ MonoBehaviour:
   m_Name: Saindo_do_hospital1.3
   m_EditorClassIdentifier: 
   sentence:
-  - frase: aaa
+  - frase: Agora, voltar para casa.
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: '. . .
+
+'
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Urgh.\r"
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

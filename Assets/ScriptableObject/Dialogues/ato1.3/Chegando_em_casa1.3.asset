@@ -13,7 +13,28 @@ MonoBehaviour:
   m_Name: Chegando_em_casa1.3
   m_EditorClassIdentifier: 
   sentence:
-  - frase: chegando casa
+  - frase: CHEGUEI!
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Voc\xEA n\xE3o precisa gritar toda vez que chega, Davi."
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: Eh, mas eu gosto.
+    nextSentence: 3
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "De qualquer forma, me ajuda a colocar a mesa, pega os copos na cozinha.
+      Seu pai j\xE1 deve estar chegando."
+    nextSentence: 4
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: " T\xE1."
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

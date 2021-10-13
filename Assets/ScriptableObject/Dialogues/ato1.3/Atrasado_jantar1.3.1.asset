@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Atrasado_jantar1.3.1
   m_EditorClassIdentifier: 
   sentence:
-  - frase: atrasado
+  - frase: "DAVI! HORA DA JANTA!\r"
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "OK! J\xC1 VOU!\r\n"
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

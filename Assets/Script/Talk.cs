@@ -32,7 +32,6 @@ public class Talk : MonoBehaviour
     GameObject canvas;//variavel da UI na tela
     player player;//importa a classe player para ter acesso as variaveis publicas
     int idfrase = -1;//controla em qual frase o player esta
-    bool raiva = false;
 
     bool terminou_frase = false;
 
@@ -197,7 +196,7 @@ public class Talk : MonoBehaviour
 
     IEnumerator write(string frase, Text texto)//corrotina para escrever as letras uma por uma
     {
-
+        bool raiva = false;
         foreach (char letter in frase)//letter passara por todas as letras da frase atual
         {
             yield return new WaitForSeconds(0.01f);//espera

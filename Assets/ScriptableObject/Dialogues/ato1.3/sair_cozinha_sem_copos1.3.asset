@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: sair_cozinha_sem_copos1.3
   m_EditorClassIdentifier: 
   sentence:
-  - frase: sem
+  - frase: "J\xE1 pegou os copos?\r\n"
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ainda n\xE3o!\r\n"
+    nextSentence: 2
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ent\xE3o v\xE1 peg\xE1-los!\r\n"
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0

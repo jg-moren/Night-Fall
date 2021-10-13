@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Na_porta_de_casa1.3
   m_EditorClassIdentifier: 
   sentence:
-  - frase: casa
+  - frase: "Bom, hora de colocar a melhor pokerface poss\xEDvel"
+    nextSentence: 1
+    sprite: {fileID: 0}
+    hasAnswer: 0
+    answers: []
+  - frase: "E a\xED vamos!\r\n"
     nextSentence: -1
     sprite: {fileID: 0}
     hasAnswer: 0
