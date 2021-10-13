@@ -40,16 +40,12 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
-    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: f3664abd838f385409e8b30fccbfc692, type: 3}
     - {fileID: 2800000, guid: dd8bb02b1d4a0654bbb32c79c2e39088, type: 3}
     - {fileID: 2800000, guid: 85317c0d7b3412949a124baa0e521428, type: 3}
-    totalSpriteSurfaceArea: 31488
     bindAsDefault: 1
-    isAtlasV2: 0
-    cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 5302655811969174426, guid: dd8bb02b1d4a0654bbb32c79c2e39088, type: 3}
@@ -299,6 +295,5 @@ SpriteAtlas:
   - escola_decoracao_19
   - escola_decoracao_12
   - escola_decoracao_13
-  m_RenderDataMap: {}
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
