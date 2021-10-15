@@ -20,41 +20,41 @@ MonoBehaviour:
     answers: []
   - frase: "Oooo, se n\xE3o \xE9 o meu neto mais velho favorito!"
     nextSentence: 2
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d084d30962e295e43842493deecc7736, type: 3}
     hasAnswer: 0
     answers: []
-  - frase: "(sorrindo) Ainda fazendo essa piada?\r"
+  - frase: "Ainda fazendo essa piada?\r"
     nextSentence: 3
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 52e13221c8481514499b0e9a210e7194, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Bom... ela funciona, n\xE3o?\r\n"
     nextSentence: 4
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d084d30962e295e43842493deecc7736, type: 3}
     hasAnswer: 0
     answers: []
   - frase: '. . .
 
 '
     nextSentence: 5
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "E como est\xE1 a escola?\n"
     nextSentence: 6
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: 'O mesmo de sempre.
 
 '
     nextSentence: 7
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Continua mal em f\xEDsica?\r\n"
     nextSentence: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 1
     answers:
     - frase: "A diferen\xE7a \xE9 que agora eu n\xE3o tenho mais um av\xF4 engenheiro
@@ -66,36 +66,36 @@ MonoBehaviour:
 
 '
     nextSentence: 10
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d084d30962e295e43842493deecc7736, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Ah, voc\xEA arruma um jeito.\n"
     nextSentence: 10
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: '. . .
 
 '
     nextSentence: 11
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "E como est\xE1 em casa?\n"
     nextSentence: 12
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: 'Um lixo.
 
 '
     nextSentence: 13
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Voc\xEA sabe que eles te amam, n\xE9?\r\n\n"
     nextSentence: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 1
     answers:
     - frase: "\xC0s vezes n\xE3o parece\u2026"
@@ -105,7 +105,7 @@ MonoBehaviour:
   - frase: "Se voc\xEA sabe, ent\xE3o voc\xEA sabe que tudo o que eles fazem \xE9
       pelo o seu bem!\r"
     nextSentence: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 1
     answers:
     - frase: "#Ainda sim!\r#"
@@ -114,23 +114,23 @@ MonoBehaviour:
       nextSentence: 16
   - frase: "Calma, Davi.\r"
     nextSentence: 16
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 0375a5af372558c4481a7dee1635da9e, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Olha, voc\xEA precisa reconhecer que seus pais querem o seu bem!"
     nextSentence: 17
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Se eles #realmente# quisessem o meu bem, eles n\xE3o ficariam enchendo
       tanto o meu saco sobre a escola!\r\n"
     nextSentence: 18
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
     hasAnswer: 0
     answers: []
   - frase: Sabe como se resol-
     nextSentence: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 1
     answers:
     - frase: "Sim, eu tenho que estudar, mas qual \xE9 o ponto de estudar, hein?
@@ -142,29 +142,29 @@ MonoBehaviour:
   - frase: "Mas cai no vestibular, pronto. Tem que saber, sen\xE3o voc\xEA se ferra,
       Davi!"
     nextSentence: 23
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 0375a5af372558c4481a7dee1635da9e, type: 3}
     hasAnswer: 0
     answers: []
   - frase: Sabe como se resolve isso?
     nextSentence: 21
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Estudando, beleza, mas qual \xE9 o ponto? Se eu nem vou trabalhar com
       essas mat\xE9rias?"
     nextSentence: 22
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Vestibular. Voc\xEA tem que passar para conseguir trabalhar com o que
       voc\xEA quer."
     nextSentence: 23
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "E o que voc\xEA realmente quer fazer, hein?"
     nextSentence: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 1
     answers:
     - frase: "(sarc\xE1stico) Guarda Florestal."
@@ -174,115 +174,115 @@ MonoBehaviour:
       nextSentence: 26
   - frase: "Davi\u2026"
     nextSentence: 25
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Sei l\xE1! Eu ainda tenho tempo! E eu sei que eu n\xE3o vou trabalhar
       com f\xEDsica ou qualquer outra desgra\xE7a desse tipo!"
     nextSentence: 26
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "O ponto, voc\xEA n\xE3o tanto assim. Quando voc\xEA chegar no \xFAltimo
       trimestre voc\xEA saber\u2026"
     nextSentence: 27
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "\xC9 o que todo mundo me diz\u2026"
     nextSentence: 28
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "L\xF3gico, ainda n\xE3o caiu a ficha para voc\xEA."
     nextSentence: 29
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: ...
     nextSentence: 30
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Bom, eu acho que voc\xEA precisa dar uma tranquilizada."
     nextSentence: 31
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Meus pais falam que eu j\xE1 fiz isso demais\u2026"
     nextSentence: 32
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "O fato \xE9 que voc\xEA n\xE3o est\xE1! Voc\xEA parece bem estressado\u2026"
     nextSentence: 33
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Eu sei, mas com eles n\xE3o d\xE1!"
     nextSentence: 34
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Olha, eu n\xE3o queria ser um chato, mas voc\xEA precisa aprender a conviver
       com eles. Eles v\xE3o fazer parte da sua vida por um certo tempo ainda. E voc\xEA
       precisa controlar essa sua raiva, ok?"
     nextSentence: 35
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Ok\u2026"
     nextSentence: 36
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "\xD3timo."
     nextSentence: 37
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d084d30962e295e43842493deecc7736, type: 3}
     hasAnswer: 0
     answers: []
   - frase: ...
     nextSentence: 38
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "J\xE1 est\xE1 ficando na hora de eu ir\u2026"
     nextSentence: 39
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Sim\u2026"
     nextSentence: 40
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Acho que \xE9 isso ent\xE3o\u2026"
     nextSentence: 41
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
     hasAnswer: 0
     answers: []
   - frase: Foi bom te ver meu neto.
     nextSentence: 42
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d084d30962e295e43842493deecc7736, type: 3}
     hasAnswer: 0
     answers: []
   - frase: Igualmente
     nextSentence: 43
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 52e13221c8481514499b0e9a210e7194, type: 3}
     hasAnswer: 0
     answers: []
   - frase: E lembre do que eu falei, ok?
     nextSentence: 44
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ad6cbf07a124e440b21d0b1b49584a1, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Ok, obrigado vov\xF4."
     nextSentence: 45
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 52e13221c8481514499b0e9a210e7194, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Sem problema, at\xE9 a pr\xF3xima visita!"
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d084d30962e295e43842493deecc7736, type: 3}
     hasAnswer: 0
     answers: []

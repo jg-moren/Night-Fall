@@ -21,6 +21,11 @@ MonoBehaviour:
     move: 0
     speed: 0
     pointPositions: []
+  - ativo: 0
+    initialPosition: {x: 0, y: 0, z: 0}
+    move: 0
+    speed: 0
+    pointPositions: []
   talk:
   - opicional: 1
     ativo: 1

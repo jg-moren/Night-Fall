@@ -15,23 +15,23 @@ MonoBehaviour:
   sentence:
   - frase: "Os copos n\xE3o ficam a\xED!\r\n"
     nextSentence: 1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "Eu s\xF3 preciso fazer uma coisa rapidinho!\r\n"
     nextSentence: 2
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []
   - frase: 'Essa coisa pode esperar! Pegue os copos!
 
 '
     nextSentence: 3
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
     hasAnswer: 0
     answers: []
   - frase: Humpf!
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 19610a4c8d4af3a479e096c0325c71fe, type: 3}
     hasAnswer: 0
     answers: []

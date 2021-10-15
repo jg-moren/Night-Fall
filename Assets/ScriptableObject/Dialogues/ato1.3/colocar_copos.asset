@@ -15,7 +15,7 @@ MonoBehaviour:
   sentence:
   - frase: colocar copos na mesa?
     nextSentence: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 1
     answers:
     - frase: Sim
@@ -26,6 +26,6 @@ MonoBehaviour:
 
 '
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 52e13221c8481514499b0e9a210e7194, type: 3}
     hasAnswer: 0
     answers: []

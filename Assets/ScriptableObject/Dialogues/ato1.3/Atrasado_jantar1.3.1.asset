@@ -15,11 +15,11 @@ MonoBehaviour:
   sentence:
   - frase: "DAVI! HORA DA JANTA!\r"
     nextSentence: 1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "OK! J\xC1 VOU!\r\n"
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
     hasAnswer: 0
     answers: []

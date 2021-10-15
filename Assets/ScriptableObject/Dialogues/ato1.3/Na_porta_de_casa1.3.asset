@@ -15,11 +15,11 @@ MonoBehaviour:
   sentence:
   - frase: "Bom, hora de colocar a melhor pokerface poss\xEDvel"
     nextSentence: 1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 19610a4c8d4af3a479e096c0325c71fe, type: 3}
     hasAnswer: 0
     answers: []
   - frase: "E a\xED vamos!\r\n"
     nextSentence: -1
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
     hasAnswer: 0
     answers: []

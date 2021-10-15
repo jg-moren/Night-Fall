@@ -15,7 +15,12 @@ MonoBehaviour:
   transition: []
   personagens:
   - ativo: 1
-    initialPosition: {x: 15.5, y: 5, z: 0}
+    initialPosition: {x: 16, y: 5, z: 0}
+    move: 0
+    speed: 0
+    pointPositions: []
+  - ativo: 1
+    initialPosition: {x: 15, y: 5, z: 0}
     move: 0
     speed: 0
     pointPositions: []
