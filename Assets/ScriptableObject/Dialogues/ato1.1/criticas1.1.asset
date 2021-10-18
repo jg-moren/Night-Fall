@@ -43,10 +43,6 @@ MonoBehaviour:
 
 '
       nextSentence: 9
-    - frase: '(franzo as sobrancelhas)
-
-'
-      nextSentence: 9
     - frase: "Por que o senhor est\xE1 olhando para mim, Professor Julio?\r\n"
       nextSentence: 4
   - frase: "Eu n\xE3o estava olhando para ningu\xE9m, Davi.\r\n"

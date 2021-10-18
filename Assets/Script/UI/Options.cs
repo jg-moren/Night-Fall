@@ -21,11 +21,19 @@ public class Options : MonoBehaviour
 
     void Awake()
     {
-        option = gameObject.transform.GetChild(0).gameObject;
-        controles = gameObject.transform.GetChild(1).gameObject;
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<player>();
-        musica = false;
-        spr_musica = transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
+        try
+        {
+
+            option = gameObject.transform.GetChild(0).gameObject;
+            controles = gameObject.transform.GetChild(1).gameObject;
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<player>();
+            musica = false;
+            spr_musica = transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
+        }
+        catch
+        {
+
+        }
     }
 
     public void Menu()

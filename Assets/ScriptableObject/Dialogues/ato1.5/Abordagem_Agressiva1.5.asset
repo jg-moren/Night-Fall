@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Abordagem_Agressiva1.5
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "Oh n\xE3o..."
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Senhor Silva?
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: acc0924b800f05342bc28249a36624a5, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\u2026sim?"
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Precisamos conversar.
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: acc0924b800f05342bc28249a36624a5, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Professor, com todo respeito, a gente precisa ir para a aula, voc\xEAs
+      n\xE3o podem conversar depois?"
+    nextSentence: 5
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Se voc\xEA precisa ir tanto, v\xE1 logo. Mas o Senhor Silva fica."
+    nextSentence: 6
+    sprite: {fileID: 21300000, guid: 742d9b0f8aa09114cb9ddd79d5f27df3, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Vamos Lucas.
+    nextSentence: 7
+    sprite: {fileID: 21300000, guid: 9ebda8d52af14ac4385c88937f5108c8, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: '*Boa sorte, mano.*'
+    nextSentence: 8
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ent\xE3o o que voc\xEA quer conversar comigo?"
+    nextSentence: 9
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "As suas notas est\xE3o horr\xEDveis. Voc\xEA precisa come\xE7ar a prestar
+      mais aten\xE7\xE3o na aula!"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: acc0924b800f05342bc28249a36624a5, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "Sim, eu sei\u2026"
+      nextSentence: 10
+    - frase: "Eu prestaria aten\xE7\xE3o se as suas aulas prestassem!"
+      nextSentence: 14
+  - frase: "Se voc\xEA sabe, ent\xE3o por qu\xEA n\xE3o muda sua atitude?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: acc0924b800f05342bc28249a36624a5, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: " \u2026"
+      nextSentence: 11
+    - frase: Eu mudaria se a sua aula fosse interessante.
+      nextSentence: 12
+  - frase: "Voc\xEA toma cuidado, Davi. Se n\xE3o voc\xEA n\xE3o passa em vestibular
+      nenhum!"
+    nextSentence: 14
+    sprite: {fileID: 21300000, guid: 742d9b0f8aa09114cb9ddd79d5f27df3, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Escolha suas pr\xF3ximas palavras com cuidado, Davi. Voc\xEA n\xE3o quer
+      visitar a coordena\xE7\xE3o, eu presumo."
+    nextSentence: 14
+    sprite: {fileID: 21300000, guid: 742d9b0f8aa09114cb9ddd79d5f27df3, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Escolha suas pr\xF3ximas palavras com cuidado, Davi. Voc\xEA n\xE3o quer
+      visitar a coordena\xE7\xE3o, eu presumo."
+    nextSentence: 14
+    sprite: {fileID: 21300000, guid: 742d9b0f8aa09114cb9ddd79d5f27df3, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\u2026"
+    nextSentence: 15
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Tenha um bom dia, Senhor Silva.
+    nextSentence: 16
+    sprite: {fileID: 21300000, guid: acc0924b800f05342bc28249a36624a5, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: " \u2026"
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []

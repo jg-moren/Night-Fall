@@ -39,8 +39,6 @@ public class Talk : MonoBehaviour
     GameObject answer;
     Text answer0;
     Text answer1;
-    Text answer2;
-    Text answer3;
 
 
     private void Start()
@@ -55,8 +53,6 @@ public class Talk : MonoBehaviour
         answer = canvas.gameObject.transform.GetChild(3).gameObject;
         answer0 = answer.gameObject.transform.GetChild(1).GetComponent<Text>();
         answer1 = answer.gameObject.transform.GetChild(2).GetComponent<Text>();
-        answer2 = answer.gameObject.transform.GetChild(3).GetComponent<Text>();
-        answer3 = answer.gameObject.transform.GetChild(4).GetComponent<Text>();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -85,13 +81,9 @@ public class Talk : MonoBehaviour
         
         GameObject marker0 = answer0.transform.GetChild(0).gameObject;
         GameObject marker1 = answer1.transform.GetChild(0).gameObject;
-        GameObject marker2 = answer2.transform.GetChild(0).gameObject;
-        GameObject marker3 = answer3.transform.GetChild(0).gameObject;
 
         marker0.SetActive(false);
         marker1.SetActive(false);
-        marker2.SetActive(false);
-        marker3.SetActive(false);
         switch (idAnswer)
         {
             case -1:
@@ -99,12 +91,6 @@ public class Talk : MonoBehaviour
                 break;
             case -2:
                 marker1.SetActive(true);
-                break;
-            case -3:
-                marker2.SetActive(true);
-                break;
-            case -4:
-                marker3.SetActive(true);
                 break;
         }
     }
@@ -164,8 +150,6 @@ public class Talk : MonoBehaviour
         text.text = "";
         answer0.text = "";
         answer1.text = "";
-        answer2.text = "";
-        answer3.text = "";
         idAnswer = -1;
         //se o id da frase estiver entre o tamanho da quantidade de frases
         if (0 <= idfrase && idfrase < dialogues.sentence.Length)
@@ -179,8 +163,6 @@ public class Talk : MonoBehaviour
                 //escreve as respostas
                 if (size > 0) StartCoroutine(write(dialogues.sentence[idfrase].answers[0].frase, answer0));
                 if (size > 1) StartCoroutine(write(dialogues.sentence[idfrase].answers[1].frase, answer1));
-                if (size > 2) StartCoroutine(write(dialogues.sentence[idfrase].answers[2].frase, answer2));
-                if (size > 3) StartCoroutine(write(dialogues.sentence[idfrase].answers[3].frase, answer3));
             }
             //escreve as perguntas
             StartCoroutine(write(dialogues.sentence[idfrase].frase,text));
@@ -200,24 +182,35 @@ public class Talk : MonoBehaviour
         foreach (char letter in frase)//letter passara por todas as letras da frase atual
         {
             yield return new WaitForSeconds(0.01f);//espera
-            if(letter == '#')
+            if (letter != '|')
             {
-                if (!raiva){
-                    raiva = true;
-                    texto.text += "<color=red></color>";
+                if (letter == '#')
+                {
+                    if (!raiva)
+                    {
+                        raiva = true;
+                        texto.text += "<color=red></color>";
+                    }
+                    else
+                    {
+                        raiva = false;
+                    }
                 }
-                else{
-                    raiva = false;
+                else
+                {
+                    if (raiva)
+                    {
+                        texto.text = texto.text.Insert(texto.text.Length - 8, letter.ToString());
+                    }
+                    else
+                    {
+                        texto.text += letter;
+                    }
                 }
             }
             else
             {
-                if (raiva){
-                    texto.text = texto.text.Insert(texto.text.Length-8, letter.ToString());
-                }
-                else{
-                    texto.text += letter;
-                }
+                yield return new WaitForSeconds(0.1f);//espera
             }
         }
         terminou_frase = true;

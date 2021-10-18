@@ -6,6 +6,7 @@ using UnityEngine;
 public class atos : ScriptableObject
 {
     public rooms Monologo;
+    public rooms Sonho;
     public rooms DaviHome_DaviBedroom;
     public rooms DaviHome_Hall;
     public rooms DaviHome_Room;

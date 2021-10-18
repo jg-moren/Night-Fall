@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Depois_aula1.5.1
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "A\xED, Davi! Voc\xEA t\xE1 bem cara?\r\n"
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "N\xE3o, o panaca do Julio me deixou bolado. Odeio aquele velho.\r\n"
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Bom, pelo menos voc\xEA n\xE3o est\xE1 sozinho nesse sentimento\u2026\r\n"
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: 9ebda8d52af14ac4385c88937f5108c8, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Todo mundo odeia aquele \u201Cdinossauro\u201D.\r\n"
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: 767b930bc46314c48b1a949df876e98c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "De qualquer forma, o cara conseguiu estragar a droga do meu dia antes
+      dele come\xE7ar!\r\n"
+    nextSentence: 5
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: 'Bom, agora acabou. Tenta relaxar!
+
+
+'
+    nextSentence: 6
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Vai ser dif\xEDcil\u2026 Agora eu estou indo pra casa. Um deles vai com
+      certeza estar l\xE1.\r\n"
+    nextSentence: 7
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "De qualquer forma, boa sorte, Davi. Tenta manter a cabe\xE7a fria.\r\n"
+    nextSentence: 8
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: 'Darei o meu melhor!
+
+'
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []

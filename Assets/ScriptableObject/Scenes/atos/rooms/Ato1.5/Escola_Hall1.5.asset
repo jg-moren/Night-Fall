@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e4a85c58099e74e964f8b167aec606, type: 3}
+  m_Name: Escola_Hall1.5
+  m_EditorClassIdentifier: 
+  transition:
+  - isLoked: 0
+  - isLoked: 0
+  personagens:
+  - ativo: 1
+    initialPosition: {x: 16, y: 5, z: 0}
+    move: 0
+    speed: 1.5
+    pointPositions:
+    - {x: 16, y: 3}
+    - {x: 10, y: 3}
+  - ativo: 1
+    initialPosition: {x: 14, y: 5, z: 0}
+    move: 0
+    speed: 1.5
+    pointPositions:
+    - {x: 14, y: 3}
+    - {x: 9, y: 3}
+  - ativo: 1
+    initialPosition: {x: 7, y: 3, z: 0}
+    move: 0
+    speed: 2
+    pointPositions: []
+  talk:
+  - opicional: 0
+    ativo: 1
+    dialogo: {fileID: 11400000, guid: 0cf92f1c4e3fdc5488f88c2dd0d4df7c, type: 2}
+  - opicional: 0
+    ativo: 1
+    dialogo: {fileID: 11400000, guid: 819f95ce92804eb438a1a685f0f0fb69, type: 2}

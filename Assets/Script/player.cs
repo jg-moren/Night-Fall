@@ -9,7 +9,16 @@ public class player : MonoBehaviour
     Rigidbody2D rb;
     Vector2 movement;
     public bool isStop = false;
-    
+    public bool perdeu = false;
+  
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Dano")
+        {
+            perdeu = true;
+        }
+    }
 
     //configura o personagem para que na troca de cenas ele nao comece errado
     void Awake()

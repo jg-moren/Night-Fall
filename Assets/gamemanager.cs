@@ -75,6 +75,8 @@ public class gamemanager : MonoBehaviour
         if (RoomName == "Hospital_Recepcao") return AtoAtual.Hospital_Recepcao;
         if (RoomName == "Hospital_Rua") return AtoAtual.Hospital_Rua;
         if (RoomName == "TestRoom") return AtoAtual.TestRoom;
+        if (RoomName == "Sonho") return AtoAtual.Sonho;
+
         return null;
     }
     /*

@@ -57,7 +57,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: fe0fde237f515d740aad9ca66871f1a3, type: 3}
     hasAnswer: 1
     answers:
-    - frase: "\xC9\u2026 voc\xEA tamb\xE9m.\r\n"
+    - frase: "\xC9\u2026 voc\xEA tamb\xE9m.\r"
       nextSentence: -1
     - frase: Duvido...
       nextSentence: -1

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Conflito1.6
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "Davi, a gente precisa conversar\u2026"
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Um \u201Coi\u201D seria bom."
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Davi\u2026"
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Fala logo. Tive um dia tenso hoje.
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu recebi um comunicado preocupante sobre as suas notas de f\xEDsica,
+      hoje\u2026"
+    nextSentence: 5
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 6
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu tamb\xE9m fui alertada que as suas notas nas outras mat\xE9rias tamb\xE9m
+      est\xE3o muito baixas\u2026"
+    nextSentence: 7
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 8
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Por isso, algumas coisas ter\xE3o que mudar."
+    nextSentence: 9
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: O que, exatamente.
+    nextSentence: 10
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "A partir de hoje, voc\xEA est\xE1 proibido de jogar no seu computador
+      at\xE9 voc\xEA melhorar essas notas, ok?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "N\xE3o! Eu consigo melhorar as minhas notas!"
+      nextSentence: 11
+    - frase: "Olha, eu realmente n\xE3o quero ter essa conversa agora, ok?"
+      nextSentence: 22
+  - frase: "Sim, e voc\xEA far\xE1 isso sem distra\xE7\xF5es dos jogos!"
+    nextSentence: 12
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Se \xE9 assim, voc\xEA n\xE3o quer um filho, voc\xEA quer uma m\xE1quina!
+      E eu n\xE3o serei uma m\xE1quina!"
+    nextSentence: 13
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Eu estou fazendo isso porque eu amo o meu filho e quero que ele tenha
+      um futuro!
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "#Pois o meu futuro ser\xE1 feito por mim para mim! Eu n\xE3o quero
+        a sua \u201Cajuda\u201D!#"
+      nextSentence: 14
+    - frase: Quer saber? Eu estou indo para o meu quarto. Tchau.
+      nextSentence: 20
+  - frase: "Davi! N\xE3o grite comigo! Eu sou sua m\xE3e! Isto \xE9 pelo seu pr\xF3prio
+      bem!"
+    nextSentence: 15
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "#N\xE3o, n\xE3o \xE9! \u201CIsto\u201D \xE9 porque voc\xEA insiste em
+      culpar as SUAS falhas como m\xE3e em objetos inanimados!#"
+    nextSentence: 16
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "#Davi\u2026 Retire o que disse\u2026#"
+    nextSentence: 17
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: '#Eu estou indo para o meu quarto.#'
+    nextSentence: 18
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "#Voc\xEA n\xE3o ouse-#"
+    nextSentence: 19
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: '#TCHAU!#'
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: ' Davi volta aqui!'
+    nextSentence: 21
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu disse #\u201Ctchau\u201D#."
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "N\xE3o importa! N\xF3s temos que conversar sobre isso!"
+    nextSentence: 23
+    sprite: {fileID: 21300000, guid: acb66634b3c5d8048921abad8d72bcfa, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ent\xE3o, a gente pode conversar amanh\xE3, ok? Meu dia j\xE1 foi irritante
+      o suficiente e eu j\xE1 estou estressado!"
+    nextSentence: 24
+    sprite: {fileID: 21300000, guid: 19610a4c8d4af3a479e096c0325c71fe, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu tamb\xE9m estou estressada! Mas eu preciso fazer isso!"
+    nextSentence: 25
+    sprite: {fileID: 21300000, guid: 06ab616badd553c42a06134e54ebd76e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "J\xE1 que \xE9 assim, pelo bem de n\xF3s dois\u2026 #TCHAU!#"
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []

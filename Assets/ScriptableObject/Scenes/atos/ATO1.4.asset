@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ATO1.4
   m_EditorClassIdentifier: 
   Monologo: {fileID: 0}
+  Sonho: {fileID: 11400000, guid: 20959364580d442479286a2e9fdce593, type: 2}
   DaviHome_DaviBedroom: {fileID: 0}
   DaviHome_Hall: {fileID: 0}
   DaviHome_Room: {fileID: 0}

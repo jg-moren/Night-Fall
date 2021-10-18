@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Retorno1.7
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "Ah \xF3timo, eu estou aqui de novo\u2026"
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: 19610a4c8d4af3a479e096c0325c71fe, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "#TOLO! VOC\xCA NUNCA SAIU!\r#\n"
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: 69589b1389d18d341b67ac7d38093e06, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Olha s\xF3! Eu estou de saco cheio demais para voc\xEA ficar me perturbando
+      desse jeito, ok?\r\n"
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "#HAHAHAHA! IMBECIL! TUDO O QUE VOC\xCA FAZ \xC9 ME DEIXAR MAIS FORTE!\r#"
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: dbcd01054da640a408177aa827f0b8ec, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\u2026 que"
+    nextSentence: 5
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "#EU SOU PARTE DE VOC\xCA TOLINHO! E EM BREVE, EU SEREI VOC\xCA!\r#\n"
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: 69589b1389d18d341b67ac7d38093e06, type: 3}
+    hasAnswer: 0
+    answers: []

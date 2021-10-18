@@ -43,7 +43,6 @@ public class transition_map : MonoBehaviour
             position += (int)Input.GetAxisRaw("Horizontal");
             if (!(position < 0 || 2 < position))
             {
-                print(position);
                 setPosition(lugares[position].coo);
             }
             if (position < 0) position = 0;

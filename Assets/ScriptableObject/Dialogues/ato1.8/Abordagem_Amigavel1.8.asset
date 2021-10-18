@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Abordagem_Amigavel1.8
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: Senhor Davi! Um momento, por favor!
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "De novo n\xE3o\u2026"
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Putz\u2026 boa sorte."
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Quando tu chegar na sala, eu deixo voc\xEA usar meu casaco como travesseiro."
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: 5ab716a61242198499d25b6478d21d1a, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Valeu\u2026"
+    nextSentence: 5
+    sprite: {fileID: 21300000, guid: 52e13221c8481514499b0e9a210e7194, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ok, isso n\xE3o vai demorar muito\u2026 Eu preciso falar contigo sobre
+      as suas notas\u2026"
+    nextSentence: 6
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Voc\xEA n\xE3o seria o primeiro\u2026"
+    nextSentence: 7
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ok, ent\xE3o\u2026 Acho que voc\xEA j\xE1 sabe que elas n\xE3o est\xE3o
+      boas\u2026"
+    nextSentence: 8
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "O Professor Augusto j\xE1 me alertou, sim."
+    nextSentence: 9
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xC9, eu tava querendo falar contigo antes dele\u2026 Ele \xE9 muito
+      insens\xEDvel!"
+    nextSentence: 10
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: ...
+    nextSentence: 11
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Enfim, o que eu gostaria de te falar \xE9 que eu estou organizando umas
+      aulas extras depois da escola."
+    nextSentence: 12
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "N\xE3o s\xF3 da minha mat\xE9ria, mas de v\xE1rios professores"
+    nextSentence: 13
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Voc\xEA se interessa?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "Desculpa, eu n\xE3o tenho tempo\u2026 Eu tenho coisas para fazer depois
+        da aula, j\xE1.\r\n"
+      nextSentence: 14
+    - frase: "Olha, eu realmente n\xE3o sei. Minha cabe\xE7a n\xE3o anda no melhor
+        dos lugares\u2026\r"
+      nextSentence: 28
+  - frase: "Visitar o seu av\xF4, n\xE9?"
+    nextSentence: 15
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: O que?
+    nextSentence: 16
+    sprite: {fileID: 21300000, guid: ff2393a81dc463a42ae58671853fb869, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "A coordena\xE7\xE3o nos avisa sobre esse tipo de coisa. Ele est\xE1 bem?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "\u2026 sim, ele est\xE1"
+      nextSentence: 17
+    - frase: "Isso \xE9 uma tremenda invas\xE3o de privacidade!\r\n"
+      nextSentence: 21
+  - frase: "Que bom! Aposto que ele vai recuperar extra r\xE1pido quando ele ver
+      o seu neto mandando bem nas notas!"
+    nextSentence: 18
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "S\xE9rio?"
+    nextSentence: 19
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Eu n\xE3o estou brincando! Isto \xE9 cientificamente provado!"
+    nextSentence: 20
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Se sentir bem faz as pessoas se recuperarem mais rapidamente!
+    nextSentence: 30
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Foram os seus pais que forneceram essa informa\xE7\xE3o."
+    nextSentence: 22
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xC9 claro que foram\u2026"
+    nextSentence: 23
+    sprite: {fileID: 21300000, guid: bfddfdf677687dd428a775b280086887, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Davi, eles est\xE3o preocupados contigo\u2026 Eles querem que voc\xEA
+      tenha sucesso na vida!"
+    nextSentence: 24
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xC0s vezes n\xE3o parece\u2026"
+    nextSentence: 25
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Pois esta \xE9 a verdade!"
+    nextSentence: 26
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Olha, eu n\xE3o sei da sua vida pessoal, mas eu aposto que tem gente
+      que te ama que quer te ver feliz."
+    nextSentence: 27
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: E eu como professor tenho  o dever de te guiar nesse processo! Eu quero
+      te ajudar!
+    nextSentence: 30
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "N\xE3o se preocupe! Essas aulas n\xE3o ter\xE3o nenhum tipo de teste
+      ou prova!"
+    nextSentence: 29
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "\xC9 apenas para ajudar as pessoas a acompanharem a mat\xE9ria!"
+    nextSentence: 30
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ent\xE3o, voc\xEA se interessa pelas aulas extras?"
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: Eu vou pensar sobre.
+      nextSentence: 31
+    - frase: "\u2026"
+      nextSentence: 32
+  - frase: "\xD3timo! Essas aulinhas come\xE7am semana que vem, espero te ver l\xE1!"
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Bom, espero que voc\xEA pelo menos pense sobre\u2026 Tenha um bom dia,
+      Davi."
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: e785ca2b4a90fb848ad9cd8246abc11f, type: 3}
+    hasAnswer: 0
+    answers: []

@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition:
   - isLoked: 0
-  - isLoked: 1
   personagens: []
   talk:
   - opicional: 0
@@ -26,3 +25,6 @@ MonoBehaviour:
   - opicional: 1
     ativo: 1
     dialogo: {fileID: 11400000, guid: 54e29bfbe66d14243a6c298fa1183f19, type: 2}
+  - opicional: 0
+    ativo: 0
+    dialogo: {fileID: 0}

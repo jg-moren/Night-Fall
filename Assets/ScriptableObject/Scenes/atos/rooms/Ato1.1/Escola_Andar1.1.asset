@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0e4a85c58099e74e964f8b167aec606, type: 3}
-  m_Name: Escola_Andar1
+  m_Name: Escola_Andar1.1
   m_EditorClassIdentifier: 
   transition:
   - isLoked: 0
@@ -32,4 +32,7 @@ MonoBehaviour:
     - {x: 2, y: 0}
     - {x: 16, y: 0}
     - {x: 16, y: 1}
-  talk: []
+  talk:
+  - opicional: 0
+    ativo: 0
+    dialogo: {fileID: 0}

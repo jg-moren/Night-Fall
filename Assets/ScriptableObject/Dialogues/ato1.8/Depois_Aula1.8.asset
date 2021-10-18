@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691417d4fe75aef4abc244371aa00196, type: 3}
+  m_Name: Depois_Aula1.8
+  m_EditorClassIdentifier: 
+  sentence:
+  - frase: "Voc\xEA n\xE3o conseguiu dormir, n\xE9?\r\n"
+    nextSentence: 1
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: " \xC9\u2026 Eu preciso da minha cama!\r\n"
+    nextSentence: 2
+    sprite: {fileID: 21300000, guid: 19610a4c8d4af3a479e096c0325c71fe, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ent\xE3o sai correndo para casa, rapaz!\r\n"
+    nextSentence: 3
+    sprite: {fileID: 21300000, guid: 5c2fd8985fff5c740828ff778159f63e, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: 'Eu mal consigo andar, vou sair correndo como?
+
+'
+    nextSentence: 4
+    sprite: {fileID: 21300000, guid: 7a46157430c831942807ba3b64c73a0c, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: Quer que eu te carregue
+    nextSentence: 0
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
+    hasAnswer: 1
+    answers:
+    - frase: "\u2026"
+      nextSentence: 5
+    - frase: Pode ser
+      nextSentence: 8
+  - frase: ...
+    nextSentence: 6
+    sprite: {fileID: 21300000, guid: 03c5be571081faa4faebcbebca391888, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "N\xE3o\u2026"
+    nextSentence: 7
+    sprite: {fileID: 21300000, guid: ef7c5e72ce4daad4e90ab2002230f542, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Ah, ok ent\xE3o. Boa sorte!\r\n"
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: " Calma a\xED, zumbi, eu estava zuando!\r\n"
+    nextSentence: 9
+    sprite: {fileID: 21300000, guid: 38bde6610daa5444fbef4a964a8b7395, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: 'Vai ter que carregar ele agora, Lucas!
+
+'
+    nextSentence: 10
+    sprite: {fileID: 21300000, guid: b87eae237b43d804691ce7ef852dcfb4, type: 3}
+    hasAnswer: 0
+    answers: []
+  - frase: "Nem ferrando! V\xE1, Davi! Sebo nas canelas!\r\n"
+    nextSentence: -1
+    sprite: {fileID: 21300000, guid: bd9a43525ee47da489fcc66b7f91b04f, type: 3}
+    hasAnswer: 0
+    answers: []
