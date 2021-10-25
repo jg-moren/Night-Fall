@@ -11,6 +11,9 @@ public class Raiva : MonoBehaviour
     public float vida = 100;
     SpriteRenderer spr;
 
+    AudioSource som;
+    public AudioClip growl;
+
     bool isMove = false;
     float speed = 0.1f;
     Vector3 movePoint;
@@ -18,6 +21,7 @@ public class Raiva : MonoBehaviour
 
     void Start()
     {
+        som = GetComponent<AudioSource>();
         movePoint = transform.position;
         spr = gameObject.GetComponent<SpriteRenderer>();
         spr_normal = spr.sprite;
@@ -41,17 +45,23 @@ public class Raiva : MonoBehaviour
             spr.sprite = spr_normal;
         }
     }
-    public void atacar(Vector3 alvo,float speed)
+    public void atacar(Vector3 alvo,float speed,float size,bool sound)
     {
         GameObject objeto = GameObject.Instantiate(ball, transform.position, transform.rotation);
         Raiva_Ball scr_ball = objeto.GetComponent<Raiva_Ball>();
         scr_ball.speed = speed;
         scr_ball.direcao = alvo - transform.position;
+        scr_ball.particle_size = size;
+        scr_ball.play_sound = sound;
     }
     public void moveTo(Vector3 _position,float _speed)
     {
         movePoint = _position;
         speed = _speed;
+    }
+    public void rugir()
+    {
+        som.PlayOneShot(growl);
     }
 
 }

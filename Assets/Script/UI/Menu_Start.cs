@@ -29,6 +29,11 @@ public class Menu_Start : MonoBehaviour
         if(cena != null && cena != "" )
         {
             SceneManager.LoadScene(sceneName: cena);
+            /*
+            PlayerPrefs.DeleteAll();
+            GM.SetGameState("ATO1.7");
+            SceneManager.LoadScene(sceneName: "Sonho");
+            */
         }
         else
         {

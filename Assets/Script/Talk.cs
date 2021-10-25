@@ -8,6 +8,9 @@ public class Talk : MonoBehaviour
 {
 
     public Dialogues dialogues;
+    public AudioClip talk;
+    public AudioClip select;
+    AudioSource som;
 
 
 
@@ -43,7 +46,7 @@ public class Talk : MonoBehaviour
 
     private void Start()
     {
-
+        som = GetComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<player>();
         alert = gameObject.transform.GetChild(1).gameObject;
         canvas = gameObject.transform.GetChild(0).gameObject;//define a caixa de fala que é children dessa classe
@@ -116,6 +119,7 @@ public class Talk : MonoBehaviour
             }
             if (Input.GetAxisRaw("Submit")==1 && Input.anyKeyDown && terminou_frase)
             {
+                //som.PlayOneShot(select);
                 terminou_frase = false;
                 StopAllCoroutines();
                 nextSentence();
@@ -198,6 +202,7 @@ public class Talk : MonoBehaviour
                 }
                 else
                 {
+                    //som.PlayOneShot(talk);
                     if (raiva)
                     {
                         texto.text = texto.text.Insert(texto.text.Length - 8, letter.ToString());

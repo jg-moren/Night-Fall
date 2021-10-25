@@ -440,6 +440,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GM: {fileID: 0}
   game: {fileID: 11400000, guid: 2319d487f44ced44d8037a34d1d7aa44, type: 2}
+  battle_song: {fileID: 8300000, guid: 15b860c5ffd32f54080ee9d00fc0e9ca, type: 3}
+  default_song: {fileID: 8300000, guid: 84c1cbcd34ac95a49a34206a3251ed35, type: 3}
 --- !u!1001 &1108128146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1022,6 +1024,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6738283324411460616, guid: 47403b8bbf50aa540bc43463d3025bd1,
+        type: 3}
+      propertyPath: growl
+      value: 
+      objectReference: {fileID: 8300000, guid: 81eed9204afd8ce47a7a31f9dd36efe0, type: 3}
     - target: {fileID: 7254503465927265985, guid: 47403b8bbf50aa540bc43463d3025bd1,
         type: 3}
       propertyPath: m_Name

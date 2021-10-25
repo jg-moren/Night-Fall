@@ -6,6 +6,8 @@ MonoImporter:
   defaultReferences:
   - GM: {instanceID: 0}
   - game: {fileID: 11400000, guid: 2319d487f44ced44d8037a34d1d7aa44, type: 2}
+  - battle_song: {fileID: 8300000, guid: 15b860c5ffd32f54080ee9d00fc0e9ca, type: 3}
+  - default_song: {fileID: 8300000, guid: 84c1cbcd34ac95a49a34206a3251ed35, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

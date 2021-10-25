@@ -10,12 +10,16 @@ public class SonhoManager : scene_manager
     GameObject talk;
     GameObject transition;
 
+    public AudioClip battle_song;
+    public AudioClip default_song;
+    musica_fundo som;
+
     bool batalha_iniciada = false;
     bool batalha_terminou = false;
 
     void Start()
     {
-
+        som = FindObjectOfType<musica_fundo>();
         raiva = FindObjectOfType<Raiva>();
         player = FindObjectOfType<player>();
         talk = GameObject.FindGameObjectWithTag("Talk");
@@ -23,14 +27,19 @@ public class SonhoManager : scene_manager
         switch (GM.GetGameState())
         {
             case "ATO1.4":
+                som.pause();
+                player.speed = 5;
                 raiva.transform.position = new Vector3(0, 9, 0);
                 raiva.moveTo(new Vector3(0, 9, 0), 1);
                 break;
             case "ATO1.7":
+                som.pause();
+                player.speed = 5;
                 raiva.transform.position = new Vector3(0, 6, 0);
                 raiva.moveTo(new Vector3(0, 6, 0), 1);
                 break;
             case "ATO1.9":
+                som.pause();
                 player.speed = 5;
                 raiva.transform.position = new Vector3(0, 6, 0);
                 raiva.moveTo(new Vector3(0, 6, 0), 1);
@@ -57,10 +66,12 @@ public class SonhoManager : scene_manager
                     Camera.main.gameObject.transform.position = Vector3.back;
                     talk.transform.GetChild(1).gameObject.SetActive(false);
                     if (!batalha_iniciada) {
+                        som.changeAudio(battle_song);
                         StartCoroutine(batalha1());
                         batalha_iniciada = true;
                     }
                     if (batalha_iniciada && batalha_terminou){
+                        som.changeAudio(default_song);
                         GM.SetGameState("ATO1.5");
                         transition.transform.GetChild(0).GetComponent<transition>().ativar("DaviHome_DaviBedroom", new Vector3(4.5f, 0));
                     }
@@ -74,16 +85,17 @@ public class SonhoManager : scene_manager
                     if (raiva.transform.localScale.x < 2) raiva.transform.localScale += raiva.transform.localScale*0.1f*Time.deltaTime;
                     if (!batalha_iniciada)
                     {
+                        som.changeAudio(battle_song);
                         StartCoroutine(batalha2());
                         batalha_iniciada = true;
                     }
                     if (batalha_iniciada && batalha_terminou)
                     {
+                        som.changeAudio(default_song);
                         GM.SetGameState("ATO1.8");
                         transition.transform.GetChild(0).GetComponent<transition>().ativar("Escola_Hall", new Vector3(19, 1));
                     }
                 }
-
                 break;
             case "ATO1.9":
                 if (talk.transform.GetChild(0).GetComponent<Talk>().estado.terminou)
@@ -91,11 +103,13 @@ public class SonhoManager : scene_manager
                     talk.transform.GetChild(0).gameObject.SetActive(false);
                     if (!batalha_iniciada)
                     {
+                        som.changeAudio(battle_song);
                         StartCoroutine(batalha3());
                         batalha_iniciada = true;
                     }
                     if (batalha_iniciada && batalha_terminou)
                     {
+                        som.changeAudio(default_song);
                         GM.SetGameState("ATO1.9.1");
                         talk.transform.GetChild(0).GetComponent<Talk>().estado.terminou = false;
                         transition.transform.GetChild(0).GetComponent<transition>().ativar("Sonho", new Vector3(0, 0));
@@ -115,22 +129,56 @@ public class SonhoManager : scene_manager
         }
 
     }
+
+    IEnumerator ataque_direcionado(int repetir,float wait, float force)
+    {
+        for (int x = 0; x < repetir; x++)
+        {
+            raiva.setSprAtacar(true);
+            raiva.atacar(player.transform.position, force, 1,true);
+            yield return new WaitForSeconds(wait/2);
+            raiva.setSprAtacar(false);
+            yield return new WaitForSeconds(wait);
+        }
+    }
+    IEnumerator ataque_circulo(int quantos, float wait, float force)
+    {
+        raiva.setSprAtacar(true);
+        for (int x2 = 0; x2 < quantos; x2++)
+        {
+            Vector2 posicao = raiva.transform.position;
+
+            Vector2 direcao;
+            float Px = Mathf.Sin(Mathf.PI *2 * x2 / quantos); //player.transform.position.x;
+            float Py = Mathf.Cos(Mathf.PI * 2 * x2 / quantos);
+            direcao = new Vector2(Px, Py);
+            raiva.atacar(posicao + direcao, force, 0.5f,false);
+        }
+
+        yield return new WaitForSeconds(wait);
+        raiva.setSprAtacar(false);
+    }
+
     IEnumerator batalha1()  
     {
-        print("batalha1");
+        raiva.rugir();
         yield return new WaitForSeconds(2f);
         raiva.moveTo(new Vector3(0, 2, 0), 2);
         raiva.setSprAtacar(true);
         yield return new WaitForSeconds(1f);
         raiva.setSprAtacar(false);
         yield return new WaitForSeconds(1f);
-        for(int x = 0; x < 10; x++){
-            raiva.setSprAtacar(true);
-            raiva.atacar(player.transform.position, 1);
-            yield return new WaitForSeconds(0.5f);
-            raiva.setSprAtacar(false);
-            yield return new WaitForSeconds(1f);
+        raiva.moveTo(new Vector3(9, 2, 0), 2);
+        yield return StartCoroutine(ataque_direcionado(10,0.2f,2));
+        yield return new WaitForSeconds(2f);
+        for (int x = 0; x < 10; x++)
+        {
+            yield return StartCoroutine(ataque_circulo(15+x, 0.5f, 10));
+            yield return StartCoroutine(ataque_direcionado(1,0.2f,1));
         }
+        yield return new WaitForSeconds(10f);
+        raiva.rugir();
+        yield return new WaitForSeconds(0.5f);
         batalha_terminou = true;
         raiva.moveTo(player.transform.position, 5);
         raiva.setSprAtacar(true);
@@ -140,45 +188,25 @@ public class SonhoManager : scene_manager
     }
     IEnumerator batalha2()
     {
-        print("batalha2");
+
         yield return new WaitForSeconds(2f);
-        raiva.moveTo(new Vector3(0, 3, 0), 2);
+        raiva.moveTo(new Vector3(0, 5, 0), 2);
         raiva.setSprAtacar(true);
-        yield return new WaitForSeconds(1f);
+        raiva.rugir();
+        yield return new WaitForSeconds(2f);
         raiva.setSprAtacar(false);
         yield return new WaitForSeconds(1f);
         for (int x = 0; x < 2; x++)
         {
-            raiva.setSprAtacar(true);
-            for (int x2 = 0; x2 < 100; x2++)
+            for (int x2 = 0; x2 < 10; x2++)
             {
-                Vector2 posicao = raiva.transform.position;
-
-                Vector2 direcao;
-                float Px = Mathf.Sin(x2/2 ); //player.transform.position.x;
-                float Py = Mathf.Cos(x2/2 );
-
-                direcao = new Vector2(Px, Py);
-                raiva.atacar(posicao + direcao, 10);
-                /*
-                direcao = new Vector2(Px, -Py);
-                raiva.atacar(posicao + direcao, 10);
-
-                direcao = new Vector2(-Px, -Py);
-                raiva.atacar(posicao + direcao, 10);
-
-                direcao = new Vector2(-Px, Py);
-                raiva.atacar(posicao + direcao, 10);
-                */
-                yield return new WaitForSeconds(0.01f);
-
-
+                yield return StartCoroutine(ataque_circulo(5 + x2, 0.2f, 10));
             }
-
-            yield return new WaitForSeconds(0.5f);
-            raiva.setSprAtacar(false);
             yield return new WaitForSeconds(1f);
         }
+
+        raiva.rugir();
+        yield return new WaitForSeconds(0.5f);
         batalha_terminou = true;
         raiva.moveTo(player.transform.position, 5);
         raiva.setSprAtacar(true);
@@ -189,17 +217,17 @@ public class SonhoManager : scene_manager
 
     IEnumerator batalha3()
     {
-        print("batalha3");
         yield return new WaitForSeconds(2f);
-        raiva.moveTo(new Vector3(0, 3, 0), 2);
+        raiva.moveTo(new Vector3(0, 5, 0),2);
         raiva.setSprAtacar(true);
-        yield return new WaitForSeconds(1f);
+        raiva.rugir();
+        yield return new WaitForSeconds(2f);
         raiva.setSprAtacar(false);
         yield return new WaitForSeconds(1f);
         for (int x = 0; x < 10; x++)
         {
             raiva.setSprAtacar(true);
-            raiva.atacar(player.transform.position, 1);
+            raiva.atacar(player.transform.position, 1, 0,true);
             yield return new WaitForSeconds(0.5f);
             raiva.setSprAtacar(false);
             yield return new WaitForSeconds(1f);

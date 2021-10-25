@@ -149,6 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues: {fileID: 11400000, guid: 635e9675eb8a8844c81ffb999b9b5e2e, type: 2}
+  talk: {fileID: 8300000, guid: 2e1b30a4ddf2eda4e9ae4811553b8b53, type: 3}
+  select: {fileID: 8300000, guid: 90a7b5abe7fa50c48a49df383863b456, type: 3}
   estado:
     idPergunta: 0
     idResposta: 0

@@ -24,11 +24,12 @@ public class Menu_New : MonoBehaviour
 
     private void OnMouseDown()
     {
-
         PlayerPrefs.DeleteAll();
         GM.SetGameState("ATO1.1");
         SceneManager.LoadScene(sceneName: "monologo");
-        
+
+
+
     }
 
 }

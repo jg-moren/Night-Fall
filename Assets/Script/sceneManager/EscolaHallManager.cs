@@ -42,6 +42,7 @@ public class EscolaHallManager : scene_manager
             case "ATO1.5":
                 if (amigos.estado.terminou)
                 {
+
                     ronaldo.move = moveState.mover;
                     lucas.move = moveState.mover;
 
