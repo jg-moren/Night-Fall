@@ -20,9 +20,9 @@ public class MonologoManager : scene_manager
     {
         if (monologo.estado.terminou)
         {
-            PlayerPrefs.SetFloat("Save:position.x",19);
-            PlayerPrefs.SetFloat("Save:position.y",1);
-            SceneManager.LoadScene(sceneName: "Escola_Hall");
+            PlayerPrefs.SetFloat("Save:position.x",0);
+            PlayerPrefs.SetFloat("Save:position.y",10);
+            SceneManager.LoadScene(sceneName: "Escola_Rua");
         }
     }
 }

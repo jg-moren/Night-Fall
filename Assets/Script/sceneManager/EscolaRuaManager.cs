@@ -7,11 +7,11 @@ public class EscolaRuaManager : scene_manager
 
     GameObject Fala;
 
+    
 
     void Start()
     {
         Fala = GameObject.FindGameObjectWithTag("Talk");
-
     }
     private void Update()
     {
@@ -30,6 +30,9 @@ public class EscolaRuaManager : scene_manager
                     Fala.transform.GetChild(1).gameObject.SetActive(false);
                     GM.SetGameState("ATO1.9");
                 }
+                break;
+            default:
+
                 break;
         }
 

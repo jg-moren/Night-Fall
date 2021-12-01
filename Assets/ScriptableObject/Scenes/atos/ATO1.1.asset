@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: ATO1.1
   m_EditorClassIdentifier: 
   Monologo: {fileID: 11400000, guid: 59bc51d0a49214645a878ec8445e247e, type: 2}
+  Sonho: {fileID: 0}
   DaviHome_DaviBedroom: {fileID: 0}
   DaviHome_Hall: {fileID: 0}
   DaviHome_Room: {fileID: 0}
-  DaviHome_Rua: {fileID: 0}
+  DaviHome_Rua: {fileID: 11400000, guid: 0fa620f80316c68438df4ea2e793c326, type: 2}
   Escola_Andar: {fileID: 11400000, guid: ad7502b4615ff1348ab3129cc82cce5f, type: 2}
   Escola_DaviSala: {fileID: 11400000, guid: 6277896b62f10c446951aa78255d7ebe, type: 2}
   Escola_Hall: {fileID: 11400000, guid: c7337c99b404417419e3cff773a1ff44, type: 2}
-  Escola_Rua: {fileID: 0}
+  Escola_Rua: {fileID: 11400000, guid: 0e5e8d8f6d2c8b248aa37b126cf2ee4e, type: 2}
   Hospital_Andar: {fileID: 0}
   Hospital_Quarto: {fileID: 0}
   Hospital_Recepcao: {fileID: 0}
-  Hospital_Rua: {fileID: 0}
+  Hospital_Rua: {fileID: 11400000, guid: 0fa620f80316c68438df4ea2e793c326, type: 2}
   TestRoom: {fileID: 11400000, guid: 3ef4ca4e162c5064295f8a9b66b0d965, type: 2}

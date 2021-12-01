@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class DaviHomeRuaManager : scene_manager
 {
-
+ 
 }

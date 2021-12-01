@@ -11,6 +11,7 @@ public class Raiva : MonoBehaviour
     public float vida = 100;
     SpriteRenderer spr;
 
+
     AudioSource som;
     public AudioClip growl;
 
@@ -25,6 +26,7 @@ public class Raiva : MonoBehaviour
         movePoint = transform.position;
         spr = gameObject.GetComponent<SpriteRenderer>();
         spr_normal = spr.sprite;
+
     }
     void Update()
     {
@@ -59,6 +61,7 @@ public class Raiva : MonoBehaviour
         movePoint = _position;
         speed = _speed;
     }
+ 
     public void rugir()
     {
         som.PlayOneShot(growl);

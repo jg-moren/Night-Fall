@@ -441,6 +441,7 @@ MonoBehaviour:
   GM: {fileID: 0}
   game: {fileID: 11400000, guid: 2319d487f44ced44d8037a34d1d7aa44, type: 2}
   battle_song: {fileID: 8300000, guid: 15b860c5ffd32f54080ee9d00fc0e9ca, type: 3}
+  sonho_song: {fileID: 8300000, guid: 68be6d12b49f80441b34d9891c599d4e, type: 3}
   default_song: {fileID: 8300000, guid: 84c1cbcd34ac95a49a34206a3251ed35, type: 3}
 --- !u!1001 &1108128146
 PrefabInstance:

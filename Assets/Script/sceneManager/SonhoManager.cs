@@ -11,6 +11,8 @@ public class SonhoManager : scene_manager
     GameObject transition;
 
     public AudioClip battle_song;
+
+    public AudioClip sonho_song;
     public AudioClip default_song;
     musica_fundo som;
 
@@ -27,24 +29,25 @@ public class SonhoManager : scene_manager
         switch (GM.GetGameState())
         {
             case "ATO1.4":
-                som.pause();
+                som.changeAudio(sonho_song);
                 player.speed = 5;
                 raiva.transform.position = new Vector3(0, 9, 0);
                 raiva.moveTo(new Vector3(0, 9, 0), 1);
                 break;
             case "ATO1.7":
-                som.pause();
+                som.changeAudio(sonho_song);
                 player.speed = 5;
                 raiva.transform.position = new Vector3(0, 6, 0);
                 raiva.moveTo(new Vector3(0, 6, 0), 1);
                 break;
             case "ATO1.9":
-                som.pause();
+                som.changeAudio(sonho_song);
                 player.speed = 5;
                 raiva.transform.position = new Vector3(0, 6, 0);
                 raiva.moveTo(new Vector3(0, 6, 0), 1);
                 break;
             case "ATO1.9.1":
+                som.changeAudio(sonho_song);
                 raiva.transform.position = new Vector3(0, 6, 0);
                 raiva.moveTo(new Vector3(0, 6, 0), 1);
                 break;
@@ -176,7 +179,7 @@ public class SonhoManager : scene_manager
             yield return StartCoroutine(ataque_circulo(15+x, 0.5f, 10));
             yield return StartCoroutine(ataque_direcionado(1,0.2f,1));
         }
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(2f);
         raiva.rugir();
         yield return new WaitForSeconds(0.5f);
         batalha_terminou = true;
@@ -222,6 +225,7 @@ public class SonhoManager : scene_manager
         raiva.setSprAtacar(true);
         raiva.rugir();
         yield return new WaitForSeconds(2f);
+
         raiva.setSprAtacar(false);
         yield return new WaitForSeconds(1f);
         for (int x = 0; x < 10; x++)

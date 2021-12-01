@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ATO1.2
   m_EditorClassIdentifier: 
   Monologo: {fileID: 0}
+  Sonho: {fileID: 0}
   DaviHome_DaviBedroom: {fileID: 0}
   DaviHome_Hall: {fileID: 0}
   DaviHome_Room: {fileID: 0}
@@ -24,5 +25,5 @@ MonoBehaviour:
   Hospital_Andar: {fileID: 11400000, guid: 797e63f185e43764aa3d14deba001498, type: 2}
   Hospital_Quarto: {fileID: 11400000, guid: 6aaf313efcddd0e4e9015b29eb81ca35, type: 2}
   Hospital_Recepcao: {fileID: 11400000, guid: 11ea778771d28b447ab6d8053fc5edcc, type: 2}
-  Hospital_Rua: {fileID: 0}
+  Hospital_Rua: {fileID: 11400000, guid: 0fa620f80316c68438df4ea2e793c326, type: 2}
   TestRoom: {fileID: 0}
