@@ -12,12 +12,12 @@ public class Options : MonoBehaviour
 
     GameObject controles;
     bool isOpen = false;
-    player player;
     bool musica;
     Image spr_musica;
     public Sprite musica_on;
     public Sprite musica_off;
 
+    
 
     void Awake()
     {
@@ -26,7 +26,6 @@ public class Options : MonoBehaviour
 
             option = gameObject.transform.GetChild(0).gameObject;
             controles = gameObject.transform.GetChild(1).gameObject;
-            player = GameObject.FindGameObjectWithTag("Player").GetComponent<player>();
             musica = false;
             spr_musica = transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
         }
@@ -42,15 +41,19 @@ public class Options : MonoBehaviour
     }
     public void Musica()
     {
-        musica = musica ? false : true;
         if (musica)
         {
             spr_musica.sprite = musica_on;
+            AudioListener.volume = 1;
         }
         else
         {
             spr_musica.sprite = musica_off;
+            AudioListener.volume = 0;
+
         }
+        musica = musica ? false : true;
+
     }
     public void Controles()
     {
@@ -82,7 +85,7 @@ public class Options : MonoBehaviour
 
     void openOptions()
     {
-        player.isStop = isOpen;
+        Time.timeScale= isOpen ? 0 : 1;
         option.SetActive(isOpen);
     }
 }

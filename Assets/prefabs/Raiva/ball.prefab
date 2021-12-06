@@ -139,7 +139,6 @@ MonoBehaviour:
   play_sound: 0
   speed: 10
   direcao: {x: 0, y: 0}
-  tamanho_do_rabo_de_cometa_do_coisaa_que_tem_um_rabo_de_cometa_tipo_almondega_de_carne: 0
   particle_size: 0
 --- !u!198 &-2409298837462667383
 ParticleSystem:
@@ -4839,7 +4838,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_RenderMode: 3
   m_SortMode: 3
   m_MinParticleSize: 0
@@ -4875,7 +4874,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b7b18842f55f5c744b79b1feabc92327, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0

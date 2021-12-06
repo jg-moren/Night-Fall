@@ -11,6 +11,8 @@ public class Raiva : MonoBehaviour
     public float vida = 100;
     SpriteRenderer spr;
 
+    ParticleSystem particle;
+
 
     AudioSource som;
     public AudioClip growl;
@@ -22,6 +24,7 @@ public class Raiva : MonoBehaviour
 
     void Start()
     {
+        particle = GetComponent<ParticleSystem>();
         som = GetComponent<AudioSource>();
         movePoint = transform.position;
         spr = gameObject.GetComponent<SpriteRenderer>();
@@ -37,7 +40,20 @@ public class Raiva : MonoBehaviour
             float y = (movePoint.y - transform.position.y);
             transform.position += new Vector3(x,y,0)*Time.deltaTime*speed;
         }
+
     }
+    public void dano(int valor) {
+        vida -= valor;
+        if (vida <= 0)
+        {
+            particle.loop = true;
+            particle.startSpeed = 10;
+            particle.maxParticles=200;
+        }
+        particle.Play();
+
+    }
+
     public void setSprAtacar(bool ativado)
     {
 

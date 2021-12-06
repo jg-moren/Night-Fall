@@ -225,23 +225,71 @@ public class SonhoManager : scene_manager
         raiva.setSprAtacar(true);
         raiva.rugir();
         yield return new WaitForSeconds(2f);
-
         raiva.setSprAtacar(false);
         yield return new WaitForSeconds(1f);
-        for (int x = 0; x < 10; x++)
+
+        for (int x = 0; x < 5; x++)
         {
             raiva.setSprAtacar(true);
-            raiva.atacar(player.transform.position, 1, 0,true);
+            raiva.atacar(player.transform.position, 2, 1,true);
+            raiva.atacar(player.transform.position + (Vector3.left), 2, 1, true) ;
+            raiva.atacar(player.transform.position + (Vector3.right), 2, 1, true);
             yield return new WaitForSeconds(0.5f);
             raiva.setSprAtacar(false);
             yield return new WaitForSeconds(1f);
         }
-        batalha_terminou = true;
-        raiva.moveTo(player.transform.position, 5);
+
+        yield return new WaitForSeconds(2f);
         raiva.setSprAtacar(true);
-        yield return new WaitForSeconds(1f);
+        raiva.rugir();
+        raiva.dano(20);
+        yield return new WaitForSeconds(2f);
+        raiva.setSprAtacar(false);
+        yield return new WaitForSeconds(2f);
+
+        raiva.moveTo(player.transform.position, 2);
+        raiva.setSprAtacar(true);
+        yield return new WaitForSeconds(2f);
         raiva.setSprAtacar(false);
         yield return new WaitForSeconds(1f);
+
+        for (int x = 0; x < 2; x++)
+        {
+            for (int x2 = 0; x2 < 10; x2++)
+            {
+                yield return StartCoroutine(ataque_circulo(5 + x2, 0.2f, 10));
+            }
+            yield return new WaitForSeconds(1f);
+        }
+
+        yield return new WaitForSeconds(2f);
+        raiva.setSprAtacar(true);
+        raiva.rugir();
+        raiva.dano(20);
+        yield return new WaitForSeconds(2f);
+        raiva.setSprAtacar(false);
+        yield return new WaitForSeconds(2f);
+
+        raiva.moveTo(player.transform.position, 2);
+        raiva.setSprAtacar(true);
+        yield return new WaitForSeconds(2f);
+        raiva.setSprAtacar(false);
+        yield return new WaitForSeconds(1f);
+
+
+        for (int x = 0; x < 10; x++)
+        {
+            yield return StartCoroutine(ataque_circulo(15 + x, 0.5f, 10));
+            yield return StartCoroutine(ataque_direcionado(1, 0.2f, 1));
+        }
+
+        yield return new WaitForSeconds(2f);
+        raiva.setSprAtacar(true);
+        raiva.rugir();
+        raiva.dano(100);
+        yield return new WaitForSeconds(5f);
+
+        batalha_terminou = true;
     }
 
 }
